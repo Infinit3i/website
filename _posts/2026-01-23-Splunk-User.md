@@ -5,6 +5,8 @@ categories: [Splunk, Security]
 tags: [splunk, detection engineering, siem, blue team]
 ---
 
+![Splunk](https://splunk.gallerycdn.vsassets.io/extensions/splunk/splunk/0.3.5/1768410470572/Microsoft.VisualStudio.Services.Icons.Default)
+
 I completed the Splunk Core User certification on January 23, with only one day's notice. This was not because the exam was trivial in isolation, but because the material aligned directly with five years of experience as a Detection Engineer.
 
 The certification focuses on foundational Splunk concepts, including basic architecture, search workflows, and SPL usage. Topics such as indexers, search heads, forwarders, fields, dashboards, alerts, and reports are central to the objectives. These are not abstract ideas for anyone working in detection. They are the mechanics of daily work.
