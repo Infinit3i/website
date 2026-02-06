@@ -9,8 +9,8 @@ I completed the Splunk Core User certification on January 23, with only one day'
 
 The certification focuses on foundational Splunk concepts, including basic architecture, search workflows, and SPL usage. Topics such as indexers, search heads, forwarders, fields, dashboards, alerts, and reports are central to the objectives. These are not abstract ideas for anyone working in detection. They are the mechanics of daily work.
 
-From a detection engineering perspective, the learning curve was effectively zero. Writing SPL is already second nature. Understanding fields enrichment and correlation is assumed knowledge. The exam primarily validates familiarity with Splunk terminology and interface behavior rather than analytical depth.
+From a detection engineer’s perspective, the learning curve is nonexistent. I write SPL intuitively and already understand fields, enrichment, and correlation. The exam merely certifies my grasp of Splunk terminology and interface—not analytical ability.
 
-Preparation consisted of a brief review of the stated objectives and Splunk-specific phrasing. The exam was scheduled and completed within a day, and passed without issue.
+Preparation included a brief review of objectives and Splunk phrasing. The exam was completed and passed within a day.
 
-This certification serves as a baseline credential. It confirms operational literacy with Splunk but does not measure detection skill. For experienced engineers, its value is in formal validation rather than growth.
+This certification serves as a baseline credential that confirms operational literacy with Splunk. Its primary value for experienced engineers is as a formal validation of platform knowledge rather than as an indicator of detection expertise or professional growth.
