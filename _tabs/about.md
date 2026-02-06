@@ -4,10 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I am a Security Engineer with a strong focus on **Detection Engineering**, **Splunk**, and practical defensive security.
+I am a Security Engineer.
 
-My background spans detection engineering, security engineering, and operational security work. I enjoy building detections that are practical, explainable, and resilient rather than fragile or academic. Much of my work focuses on translating attacker behavior into durable detection logic across logs, telemetry, and security platforms.
+I enjoy detection engineering and finding out how things tick. I have worked a long time to sharpen the spear to enable soc analysts and threat hunters to better find Hackers. Much of my work focuses on translating attacker behavior into detection logic across logs, telemetry, and security platforms for my fellow analysts.
 
-I have a strong interest in **malware analysis** and I am actively learning **malware development** to better understand threats from the inside out. Learning how malware is built directly improves how I detect, hunt, and disrupt it.
-
-I am driven by continuous learning. I enjoy revisiting fundamentals, connecting system level concepts, and refining how security tools are actually used in real environments. This site documents what I learn, what I build, and how I continue to grow as a security engineer.
+I have a strong interest in **malware analysis** and I am actively learning **malware development** to better understand threats from the inside out. I am currently learning from Maldev Academy, Sektor 7 training and splunk eLearning courses. Learning how malware is built directly improves how I detect, monitor and analyze malware.
