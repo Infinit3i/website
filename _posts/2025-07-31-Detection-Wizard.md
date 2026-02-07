@@ -19,4 +19,10 @@ Automation quickly became mandatory. Repositories had to be cloned, parsed by co
 
 The project also reframed how I think about detections as a defensive supply chain. Public rules vary widely in quality, freshness, and intent. Some are well maintained and actionable. Others are outdated or misleading. Treating detections as code that must be curated, reviewed, deduplicated, and tracked became non negotiable once volume increased.
 
-Detection Wizard reinforced a blunt truth. Defenders do not need more rules. They need fewer rules, cleaner logic, and systems that make detection sets understandable and trustworthy under pressure.
+Check out some great links where I gather these rules from
+
+[Awesome Yara](https://github.com/InQuest/awesome-yara)
+
+[Awesome Suricata](https://github.com/satta/awesome-suricata)
+
+[Awesome Detection Rules](https://github.com/jatrost/awesome-detection-rules)
