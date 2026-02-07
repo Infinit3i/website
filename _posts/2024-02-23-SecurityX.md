@@ -19,7 +19,7 @@ I focused entirely on the [exam objectives](https://www.comptia.org/en-us/certif
 I revisited topics repeatedly until they became second nature. The final time I watched the videos I did not watch everyone. Only the sections I was struggling with were the ones I watched. As I got closer to the exam, especially in the final three months, I increased how often I took practice tests, completing each test five times to pressure test my understanding and decision making.
 
 <!-- markdownlint-capture -->
-> Review the sections you are confused about and use the anki apporoach when studying.
+> Review the sections you are confused about and use the [anki](https://en.wikipedia.org/wiki/Anki_(software)) apporoach when studying.
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
@@ -27,6 +27,6 @@ When I sat for the exam, it was the first time I genuinely thought I failed whil
 
 When the screen showed that I **passed**, I could not believe it. I honestly thought I was dreaming. I asked the proctor to confirm that I had really passed, and she did. That moment hit harder than any certification before it.
 
-SecurityX caught me off guard in the best way. It made me realize I could operate as a proper lead analyst. I felt confident translating technical findings to management in a way that addressed their concerns, while also guiding both junior and senior analysts and engineers with clarity. This certification did not just validate knowledge, it validated how I think, communicate, and lead.
-
 ![pass](https://www.lawcrossing.com/images/articleimages/900008909.jpg)
+
+SecurityX caught me off guard in the best way. It made me realize I could operate as a proper lead analyst. I felt confident translating technical findings to management in a way that addressed their concerns, while also guiding both junior and senior analysts and engineers with clarity. This certification did not just validate knowledge, it validated how I think, communicate, and lead.
