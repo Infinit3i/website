@@ -1,7 +1,7 @@
 ---
 title: "How I Studied for Network+"
 date: 2023-02-11 10:00:00 -0500
-categories: [Certifications, Networking]
+categories: [Certifications, CompTIA]
 tags: [network+, comptia, certification, networking fundamentals, exam prep, military training, infrastructure, subnetting, routing, switching]
 ---
 

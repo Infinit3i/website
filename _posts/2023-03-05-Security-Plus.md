@@ -1,7 +1,7 @@
 ---
 title: "How I Studied for Security+"
 date: 2023-03-05 10:00:00 -0500
-categories: [Certifications, Cybersecurity]
+categories: [Certifications, CompTIA]
 tags: [security+, comptia, certification, cybersecurity fundamentals, exam prep, acronyms, risk management, CIA triad]
 ---
 

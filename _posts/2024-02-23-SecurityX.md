@@ -1,7 +1,7 @@
 ---
 title: "How I Studied for SecurityX"
 date: 2024-02-23 10:00:00 -0500
-categories: [Certifications, Defensive Security]
+categories: [Certifications, CompTIA]
 tags: [securityx, comptia, certification, leadership, risk management, defensive security, CASP]
 ---
 
