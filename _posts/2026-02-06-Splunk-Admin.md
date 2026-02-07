@@ -2,7 +2,7 @@
 title: "Splunk Admin"
 date: 2026-02-06 10:00:00 -0500
 categories: [Splunk, Security]
-tags: [splunk, detection-engineering, siem, blue-team]
+tags: [splunk, detection engineering, siem, blue team, splunk admin, security monitoring, spl, log analysis, data models, dashboards, saved searches, incident response, soc operations, platform engineering, security anal]
 ---
 
 ![Splunk Admin](https://www.splunk.com/content/dam/splunk2/en_us/images/training/certification-splunk-enterprise-security-certified-admin.png)

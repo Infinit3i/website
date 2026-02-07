@@ -2,7 +2,7 @@
 title: "Detection Wizard"
 date: 2024-07-31 14:00:00 -0500
 categories: [Detection Engineering, Security, Tooling]
-tags: [detection engineering, sigma, splunk, yara, suricata, automation]
+tags: [detection engineering, threat detection, blue team, security monitoring, sigma, splunk, yara, suricata, automation, rule aggregation, rule deduplication, security operations, defensive tooling]
 ---
 
 ![Yara Image](https://www.reversinglabs.com/api/media/file/how-to-use-yara-rules.svg)
