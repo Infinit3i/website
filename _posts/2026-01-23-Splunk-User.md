@@ -1,7 +1,7 @@
 ---
 title: "Splunk Core User"
 date: 2026-01-23 10:00:00 -0500
-categories: [Splunk, Certifications]
+categories: [Certifications, Splunk]
 tags: [splunk, detection engineering, siem, blue team, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
 ---
 

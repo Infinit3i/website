@@ -3,6 +3,9 @@ title: "How I Studied for Network+"
 date: 2023-02-11 10:00:00 -0500
 categories: [Certifications, CompTIA]
 tags: [network+, comptia, certification, networking fundamentals, exam prep, military training, infrastructure, subnetting, routing, switching]
+image:
+  path: https://www.comptia.org/_next/image/?url=https%3A%2F%2Fimages.cmp.optimizely.com%2F893bb620b71111ef888eca5646afc7d8%3Fwidth%3D300%26height%3D300&w=640&q=90
+  alt: CompTIA Network Plus certification
 ---
 
 ![Net+ Header](https://www.apsu.edu/continuing-education/careerandworkforcecertificationsbusiness/5.jpg)
