@@ -11,7 +11,7 @@ I took the CompTIA Security+ exam two weeks after completing Network+ and passed
 
 One of the biggest hurdles was the volume of acronyms used across cybersecurity domains. Many of the terms were unfamiliar at the time, so a large part of my preparation was focused on learning the language of the field. This directly aligned with Security+ objectives covering security architecture, operations, and governance.
 
-I used Jason Dion’s Security+ Udemy course again, but this time I watched every video in full. His explanations helped translate abstract concepts into practical meaning and gave context to how security decisions are made in real environments. I also took all of the provided practice exams three times to reinforce retention and eliminate weak spots.
+I used [Jason Dion’s Security+ Udemy](https://www.udemy.com/course/securityplus/?srsltid=AfmBOorGT2atMGalP7xK-wZ1vXWiIRituiDyKm_V0TAWO8AzaRF6Em2l) course again, but this time I watched every video in full. His explanations helped translate abstract concepts into practical meaning and gave context to how security decisions are made in real environments. I also took all of the provided practice exams three times to reinforce retention and eliminate weak spots.
 
 I approached this exam more cautiously because I didn’t yet feel fluent in how cybersecurity professionals framed problems and solutions. The repeated testing helped solidify that fluency, especially around domains like risk management, incident response, and security operations, which are core to the Security+ objectives.
 
