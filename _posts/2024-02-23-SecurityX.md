@@ -9,15 +9,19 @@ tags: [securityx, comptia, certification, leadership, risk management, defensive
 
 I completed SecurityX on February 23, 2024, and this exam was huge for me. This was the first certification where I put the full weight of everything I knew into preparation. 
 
+<!-- markdownlint-capture -->
 > Focus on the Exam Objectives and always ask why.
 {: .prompt-tip }
+<!-- markdownlint-restore -->
 
 I focused entirely on the [exam objectives](https://www.comptia.org/en-us/certifications/securityx/) and made it a rule to ask why for every concept. If I did not understand something perfectly, I kept researching until I did.
 
 My study approach was constant and deliberate. I listened to the [Jason Dion training videos](https://www.udemy.com/course/casp-plus/?srsltid=AfmBOor3DWAP8WD3dyRRuP23O3DTjz1SSWX7FAGCJAVICirlJa6TWy3M) anytime I was driving and watched each video three times to fully lock in the material. I revisited topics repeatedly until they became second nature. As I got closer to the exam, especially in the final three months, I increased how often I took practice tests, completing each test five times to pressure test my understanding and decision making.
 
+<!-- markdownlint-capture -->
 > Review the sections you are confused about and use the anki apporoach when studying.
 {: .prompt-tip }
+<!-- markdownlint-restore -->
 
 When I sat for the exam, it was the first time I genuinely thought I failed while taking it. Near the end, I was sweating, my heart was racing, and I felt the pressure of every question. When I finally submitted the exam, it felt like my chest dropped while waiting for the result.
 
