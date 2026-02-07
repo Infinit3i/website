@@ -13,16 +13,18 @@ I have a strong interest in **malware analysis** and I am actively learning **ma
 Some of my favorite projects have been [Detection-Wizard](https://github.com/Infinit3i/Detection-Wizard), [Defensive-Rules](https://github.com/Infinit3i/Defensive-Rules), [IOC-Detections](https://github.com/Infinit3i/IOC-Detections), [Hunt-AI](https://github.com/Infinit3i/hunt-ai).
 
 ## Future in 2026
-- MalDev
 - Splunk Defense Analyst
+- Finish all MalDev
 - Splunk ES
 - Splunk ITSI
 - Splunk Defense Engineer
 - ejPT
 - AWS CLP
-- Bof Development
+- Finish all Bof Development
 - Splunk Architect
 - Splunk SOAR
+- Finish all Sektor 7 Intermediate course
 - Splunk Consultant
+- Weekly RE on YouTube
 - CISSP
 - CPTS
