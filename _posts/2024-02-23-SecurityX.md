@@ -28,3 +28,5 @@ When I sat for the exam, it was the first time I genuinely thought I failed whil
 When the screen showed that I **passed**, I could not believe it. I honestly thought I was dreaming. I asked the proctor to confirm that I had really passed, and she did. That moment hit harder than any certification before it.
 
 SecurityX caught me off guard in the best way. It made me realize I could operate as a proper lead analyst. I felt confident translating technical findings to management in a way that addressed their concerns, while also guiding both junior and senior analysts and engineers with clarity. This certification did not just validate knowledge, it validated how I think, communicate, and lead.
+
+![pass](https://www.lawcrossing.com/images/articleimages/900008909.jpg)
