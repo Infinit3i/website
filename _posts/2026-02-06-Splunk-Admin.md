@@ -7,8 +7,6 @@ image:
     path: https://i.ytimg.com/vi/Ynmj3MiMFh0/hqdefault.jpg
 ---
 
-![Splunk Admin](https://www.splunk.com/content/dam/splunk2/en_us/images/training/certification-splunk-enterprise-security-certified-admin.png)
-
 I completed the Splunk Admin certification in one week—but not because it was easy.  
 It was fast because I already had five years as a Security Engineer and Detection Engineer.
 
