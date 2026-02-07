@@ -3,6 +3,8 @@ title: "Splunk Core User"
 date: 2026-01-23 10:00:00 -0500
 categories: [Certifications, Splunk]
 tags: [splunk, detection engineering, siem, blue team, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
+image:
+    path: https://www.splunk.com/content/dam/splunk2/en_us/images/training/training-course-track-core-certified-user-header-fg.png
 ---
 
 ![Splunk](https://splunk.gallerycdn.vsassets.io/extensions/splunk/splunk/0.3.5/1768410470572/Microsoft.VisualStudio.Services.Icons.Default)
