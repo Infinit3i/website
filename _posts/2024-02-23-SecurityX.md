@@ -16,10 +16,10 @@ I completed SecurityX on February 23, 2024, and this exam was huge for me. This 
 
 I focused entirely on the [exam objectives](https://www.comptia.org/en-us/certifications/securityx/) and made it a rule to ask why for every concept. If I did not understand something perfectly, I kept researching until I did. I listened to the [Jason Dion training videos](https://www.udemy.com/course/casp-plus/?srsltid=AfmBOor3DWAP8WD3dyRRuP23O3DTjz1SSWX7FAGCJAVICirlJa6TWy3M) anytime I was driving and watched each video three times to fully lock in the material. The first time I would listen at 2 tiems speed before reviewing any matierial. The second time after i reviewed the material i would watch at normal speed and revisit anything I have been struggling with on the tests. 
 
-I revisited topics repeatedly until they became second nature. The final time I watched the videos I did not watch everyone. Only the sections I was struggling with were the ones I watched. As I got closer to the exam, especially in the final three months, I increased how often I took practice tests, completing each test five times to pressure test my understanding and decision making.
+I revisited topics repeatedly until they became second nature. The final time I watched the videos I did not watch everyone. Only the sections I was struggling with were the ones I watched. As I got closer to the exam, especially in the final three months, I increased how often I took practice tests, completing each test five times to pressure test my understanding and decision making. [^anki]
 
 <!-- markdownlint-capture -->
-> Review the sections you are confused about and use the [anki](https://en.wikipedia.org/wiki/Anki_(software)) apporoach when studying.
+> Review the sections you are confused about and use the anki apporoach when studying.
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
@@ -30,3 +30,5 @@ When the screen showed that I **passed**, I could not believe it. I honestly tho
 ![pass](https://www.lawcrossing.com/images/articleimages/900008909.jpg)
 
 SecurityX caught me off guard in the best way. It made me realize I could operate as a proper lead analyst. I felt confident translating technical findings to management in a way that addressed their concerns, while also guiding both junior and senior analysts and engineers with clarity. This certification did not just validate knowledge, it validated how I think, communicate, and lead.
+
+[^anki]: I used the Anki flashcard method to reinforce weak areas through spaced repetition. https://en.wikipedia.org/wiki/Anki_(software)
