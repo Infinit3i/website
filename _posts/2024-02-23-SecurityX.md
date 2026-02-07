@@ -31,4 +31,4 @@ When the screen showed that I **passed**, I could not believe it. I honestly tho
 
 SecurityX caught me off guard in the best way. It made me realize I could operate as a proper lead analyst. I felt confident translating technical findings to management in a way that addressed their concerns, while also guiding both junior and senior analysts and engineers with clarity. This certification did not just validate knowledge, it validated how I think, communicate, and lead.
 
-[^anki]: I used the Anki flashcard method to reinforce weak areas through spaced repetition. https://en.wikipedia.org/wiki/Anki_(software)
+[^anki]: I used the [Anki](https://en.wikipedia.org/wiki/Anki_(software)) flashcard method to reinforce weak areas through spaced repetition. 
