@@ -5,9 +5,11 @@ categories: [Detection Engineering, Security, Tooling]
 tags: [detection engineering, sigma, splunk, yara, suricata, automation]
 ---
 
+![Yara Image](https://www.reversinglabs.com/api/media/file/how-to-use-yara-rules.svg)
+
 Detection rules are scattered, duplicated, and unmanaged once scale is introduced. Sigma, YARA, Suricata, and Splunk rules exist across hundreds of repositories, often rewritten with small cosmetic changes and no shared structure. Detection Wizard was created primarily to gather rules, centralize them, and remove duplication across sources.
 
-![Sigma Rule Example]https://cymulate.com/uploaded-files/2022/07/sigma_rules.png)
+![Sigma Rule Example](https://cymulate.com/uploaded-files/2022/07/sigma_rules.png)
 
 Once large scale collection became the goal, normalization became unavoidable.  I enjoy defense in depth I will always like more rules rather than less and just remove what has a high false positive rate for your enviroment. Understand coverage, remove redundancy, and avoid importing the same detection idea multiple times under different names. Deduplication made it obvious how frequently identical logic is reused across ecosystems with only variable names or comments changed.
 
