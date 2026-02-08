@@ -1,7 +1,7 @@
 ---
 title: "Detection Wizard"
 date: 2024-07-31 14:00:00 -0500
-categories: [GitHub, Detections]
+categories: [Project, GitHub]
 tags: [detection engineering, threat detection, blue team, security monitoring, sigma, splunk, yara, suricata, automation, rule aggregation, rule deduplication, security operations, defensive tooling]
 image:
   path: https://raw.githubusercontent.com/Infinit3i/Detection-Wizard/09a7dd892091e11b7548de1730075e723371ce16/assets/detection_wizard.jpeg
