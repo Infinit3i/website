@@ -8,9 +8,9 @@ image:
   alt: CompTIA Network Plus certification
 ---
 
-![Net+ Header](https://www.apsu.edu/continuing-education/careerandworkforcecertificationsbusiness/5.jpg)
-
 I prepared for the CompTIA Network+ by combining exam prep with a strong technical foundation I had just finished building. I completed the [Jason Dion Udemy Network+ course](https://www.udemy.com/course/comptia-network-n10-009-6-practice-exams-and-pbqs-set-1/?srsltid=AfmBOoqzLUaRdjYQW7Kj06F3mJyHaJHpnEL_uCRbgPmFWzGHa8KyKKfS) and took every pretest he provided. I didn't notice how much the tests helped me at first. I did some of the videos but I felt I had a good knowledge before taking my first certifaction. 
+
+![Net+ Header](https://www.apsu.edu/continuing-education/careerandworkforcecertificationsbusiness/5.jpg)
 
 I scheduled the exam 1 week out and treated preparation as focused validation rather than relearning from scratch. The Dion practice exams mapped closely to the official Network+ objectives (Networking Concepts, Infrastructure, Network Operations, Network Security, and Troubleshooting), which made it easy to measure readiness and close small gaps efficiently.
 

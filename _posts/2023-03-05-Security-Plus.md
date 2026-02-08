@@ -3,9 +3,9 @@ title: "How I Studied for Security+"
 date: 2023-03-05 10:00:00 -0500
 categories: [Certifications, CompTIA]
 tags: [security+, comptia, certification, cybersecurity fundamentals, exam prep, acronyms, risk management, CIA triad]
+image:
+  path: https://www.diontraining.com/cdn/shop/files/comptia-security-voucher-usd-424332.png?v=1747191549&width=533
 ---
-
-![Sec+](https://www.diontraining.com/cdn/shop/files/comptia-security-voucher-usd-424332.png?v=1747191549&width=533)
 
 I took the CompTIA Security+ exam two weeks after completing Network+ and passed on March 5, 2023. Unlike Network+, this certification required a mindset shift rather than a continuation of pure networking fundamentals. Going in, I knew Security+ would be heavier on terminology, abstract concepts, and how cybersecurity professionals communicate risk and intent. Conversations with coworkers confirmed that many people find Security+ easier after spending time in the field. I understood the challenge ahead and chose to meet it head on.
 
