@@ -1,7 +1,7 @@
 ---
 title: "Data Normalization"
 date: 2026-02-01 10:00:00 -0500
-categories: [Cribl, Security]
+categories: [DCO, Normalization]
 tags: [cribl, splunk, siem, data engineering, detection, data normalization, log pipelines, cim alignment, security monitoring, detection engineering, observability, log management, data quality, soc operations, incident response]
 image:
   path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ve0Wo5EbBHAWVLVG0jbi4ZeCx6h__U-I0A&s

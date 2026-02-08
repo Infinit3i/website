@@ -39,5 +39,3 @@ toc: true
 > "I know I know nothing"
 >
 > -- Socrates
-
-> 
