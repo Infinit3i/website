@@ -21,3 +21,10 @@ Reducing alert fatigue was a major takeaway. I learned the importance of removin
 Just as important was learning how to create better alerts that give analysts a clear direction to run. Good alerts should answer basic questions up front and point analysts toward the next investigative step. This mindset directly supports effective SOC operations and faster response times.
 
 One of the things I enjoyed most was learning how Splunk Enterprise Security enriches data and helps analysts connect the dots. Contextual enrichment, correlations, and risk based insights made it easier to identify threats that would otherwise blend into normal activity. Overall, this certification strengthened how I design detections, tune alerts, and support analysts in finding real threats efficiently.
+
+## SOC Essentials: Introduction to Threat Hunting (eLearning)
+- learning how threat hunting is proactive
+- look what detections might miss
+- prepare, execute, act and knowledge framework
+- know the idfference between a hypothesis hunt or outside baseline hunt
+
