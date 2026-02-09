@@ -1,5 +1,5 @@
 ---
-title: "Splunk Power User: A Required Step, Not the Goal"
+title: "Splunk Power User"
 date: 2026-01-28 10:00:00 -0500
 categories: [Certifications, Splunk]
 tags: [splunk, power user, log analysis, search language, spl, admin path]
