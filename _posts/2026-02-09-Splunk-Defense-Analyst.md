@@ -1,6 +1,6 @@
 ---
 title: "Splunk Defense Analyst"
-date: 2026-02-09 10:00:00 -0500
+date: 2026-02-09 16:00:00 -0500
 categories: [Certifications, Splunk]
 tags: [splunk, defense analyst, siem, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
 image:
