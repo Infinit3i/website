@@ -1,6 +1,6 @@
 ---
 title: "IOC-Detections — Threat Hunting & IOCs Collection"
-date: 2025-08-16 10:00:00 -0500
+date: 2025-03-16 10:00:00 -0500
 categories: [Project, GitHub]
 tags: [ioc detections, threat hunting, malware, soc analysis, yara, suricata, sigma, python, indicators of compromise, defanged iocs, infosec research, malware family intel, detection engineering, blue team, threat intel, security analytics]
 image:
