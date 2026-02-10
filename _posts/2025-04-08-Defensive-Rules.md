@@ -1,6 +1,6 @@
 ---
 title: "Defensive Rules"
-date: 2025-08-12 10:00:00 -0500
+date: 2025-04-08 10:00:00 -0500
 categories: [Project, GitHub]
 tags: [detection engineering, sigma rules, defensive security, blue team, soc, threat detection, mitre attack, windows logs, syslog, zeek, siem, splunk, elastic, security analytics, threat hunting, infosec]
 image:
