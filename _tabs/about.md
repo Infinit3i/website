@@ -16,7 +16,7 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 
 - [Deej](https://github.com/deej1721)
 - [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet) <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub"><i class="fab fa-github"></i></a>
-- [Drone-spec](https://github.com/Drone-spec)
+- [Drone-spec](https://blog.dronemothership.work/Wizardintro.html) <a href="https://github.com/Drone-spec" target="_blank" aria-label="Drone GitHub"><i class="fab fa-github"></i></a>
 - gooseduckduck
 - [Cyber Yeti](https://www.thecyberyeti.com/) <a href="https://github.com/jstrosch" target="_blank" aria-label="Cyber Yeti GitHub"><i class="fab fa-github"></i></a>
 - [Lame Creations](https://lamecreations.com/) <a href="https://www.youtube.com/@lamecreations_guides" target="_blank" aria-label="Lame Creations YT"><i class="fab fa-youtube"></i></a>
@@ -25,6 +25,7 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 - [NickBolles](https://github.com/NickBolles)
 - [Net-Doge](https://github.com/Net-Doge)
 - [0xSteevo](https://github.com/Steveo21)
+- [MTU](https://blog.sectorr.dev/)
 
 ## Future in 2026
 
@@ -33,9 +34,10 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 - ejPT
 - AWS CLP
 - Finish all Bof Development
+- Weekly RE on YouTube
 - Splunk Architect
 - Finish all Sektor 7 Intermediate course
 - Splunk Consultant
-- Weekly RE on YouTube
 - CISSP
 - CPTS
+- CRTO
