@@ -27,10 +27,7 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 
 ## Great People to follow
 - [Deej](https://github.com/deej1721)
-- [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet)
-  - <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub">
-      <i class="fab fa-github"></i>
-    </a>
+- [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet) <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub"><i class="fab fa-github"></i></a>
 - [Drone-spec](https://github.com/Drone-spec)
 - gooseduckduck
 - [Cyber Yeti](https://www.thecyberyeti.com/)
