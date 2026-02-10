@@ -12,20 +12,8 @@ I have a strong interest in **malware analysis** and I am actively learning **ma
 
 Some of my favorite projects have been [Detection-Wizard](https://github.com/Infinit3i/Detection-Wizard), [Defensive-Rules](https://github.com/Infinit3i/Defensive-Rules), [IOC-Detections](https://github.com/Infinit3i/IOC-Detections), [Hunt-AI](https://github.com/Infinit3i/hunt-ai).
 
-## Future in 2026
-- Finish all MalDev
-- Splunk Defense Engineer
-- ejPT
-- AWS CLP
-- Finish all Bof Development
-- Splunk Architect
-- Finish all Sektor 7 Intermediate course
-- Splunk Consultant
-- Weekly RE on YouTube
-- CISSP
-- CPTS
-
 ## Great People to follow
+
 - [Deej](https://github.com/deej1721)
 - [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet) <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub"><i class="fab fa-github"></i></a>
 - [Drone-spec](https://github.com/Drone-spec)
@@ -37,3 +25,17 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 - [NickBolles](https://github.com/NickBolles)
 - [Net-Doge](https://github.com/Net-Doge)
 - [0xSteevo](https://github.com/Steveo21)
+
+## Future in 2026
+
+- Finish all MalDev
+- Splunk Defense Engineer
+- ejPT
+- AWS CLP
+- Finish all Bof Development
+- Splunk Architect
+- Finish all Sektor 7 Intermediate course
+- Splunk Consultant
+- Weekly RE on YouTube
+- CISSP
+- CPTS
