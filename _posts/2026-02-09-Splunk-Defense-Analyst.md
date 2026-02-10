@@ -4,17 +4,18 @@ date: 2026-02-09 16:00:00 -0500
 categories: [Certifications, Splunk]
 tags: [splunk, defense analyst, siem, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
 image:
-  path: https://images.credly.com/images/facb40b2-23dc-43c5-a7a1-33087a40b614/twitter_thumb_201604_image.png
+  path: https://play-lh.googleusercontent.com/04k1wMqvNGY9KujbBEFD05jl2zV4ONdusyuZd8Y2mRyzdHoJgh5C8n8eoEvz9i4lgQ
   alt: Splunk Defense Analyst certification
 ---
 
 recommended prerequisites
 
-- working in a soc
+
 - understanding of frameworks like mitre, lockeed martin, nist, cis 18
 - power user cert knowledge
 - soc analyst triage
-- splunk es 7.0+
+- splunk es 7.0+ vocabularary
+- working in a soc
 
 The Splunk Defense Analyst certification was a great cert for a Splunk SOC analyst learning how to better triage their environment. The focus was on using Splunk to triage and work through alerts and investigations. A major focus of the material was MITRE ATTACK, NIST, CIs 18, and Lockheed Martin Kill Chain, and how they should guide the detection strategy. Instead of treating alerts as isolated events, I learned how to map activity to attacker techniques and understand where an alert fits in the overall attack lifecycle.
 

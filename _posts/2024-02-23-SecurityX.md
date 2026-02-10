@@ -4,7 +4,7 @@ date: 2024-02-23 10:00:00 -0500
 categories: [Certifications, CompTIA]
 tags: [securityx, comptia, certification, leadership, risk management, defensive security, CASP]
 image:
-  path: https://www.voucherplex.com/whawheeh/2018/07/comptia-casp-wpp1608571807728.jpg
+  path: https://hig.com/wp-content/uploads/2025/01/CompTIA_Logo.png
 ---
 
 I completed SecurityX on February 23, 2024, and this exam was huge for me. This was the first certification where I put the full weight of everything I knew into preparation. 

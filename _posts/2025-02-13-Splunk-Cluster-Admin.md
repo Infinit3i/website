@@ -3,6 +3,8 @@ title: "Splunk Cluster Administration: Learning the Platform at Scale"
 date: 2025-02-13 10:00:00 -0500
 categories: [Certifications, Splunk]
 tags: [splunk, cluster administration, search head clustering, indexer clustering, distributed systems, log pipelines]
+image:
+  path: https://play-lh.googleusercontent.com/04k1wMqvNGY9KujbBEFD05jl2zV4ONdusyuZd8Y2mRyzdHoJgh5C8n8eoEvz9i4lgQ
 ---
 
 I completed Splunk Cluster Administration training on February 13, 2025. The course focused on running Splunk at scale and understanding how the platform behaves in real distributed environments.

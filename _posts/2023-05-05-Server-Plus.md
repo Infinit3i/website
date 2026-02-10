@@ -4,7 +4,7 @@ date: 2023-05-05 10:00:00 -0500
 categories: [Certifications, CompTIA]
 tags: [server+, comptia, certification, servers, infrastructure, data center, power, hardware, exam prep]
 image:
-  path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1afMilWJZPuQFwExI0LKioRrVKvmN98Pkkg&s
+  path: https://hig.com/wp-content/uploads/2025/01/CompTIA_Logo.png
 ---
 
 Two months after earning Security+, I took the CompTIA Server+ exam and passed on May 5, 2023. My original plan was to pursue Linux+, but it was not supported by the program I was enrolled in at the time. Rather than delay progress, I pivoted to Server+, which ended up strengthening my understanding of enterprise infrastructure and data center operations.
