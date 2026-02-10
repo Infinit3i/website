@@ -30,9 +30,8 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 - [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet) <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub"><i class="fab fa-github"></i></a>
 - [Drone-spec](https://github.com/Drone-spec)
 - gooseduckduck
-- [Cyber Yeti](https://www.thecyberyeti.com/)
-  - [Cyber Yeti - Github](https://github.com/jstrosch)
-- [Lame Creations](https://lamecreations.com/)
+- [Cyber Yeti](https://www.thecyberyeti.com/) <a href="https://github.com/jstrosch" target="_blank" aria-label="Cyber Yeti GitHub"><i class="fab fa-github"></i></a>
+- [Lame Creations](https://lamecreations.com/) <a href="https://www.youtube.com/@lamecreations_guides" target="_blank" aria-label="Lame Creations YT"><i class="fab fa-youtube"></i></a>
 - [drngd0tter](https://github.com/Deranged0tter)
 - [KooshBox](https://github.com/JuanParks)
 - [NickBolles](https://github.com/NickBolles)
