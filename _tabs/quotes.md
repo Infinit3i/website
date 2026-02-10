@@ -3,7 +3,7 @@ layout: page
 title: Quotes
 permalink: /quotes/
 icon: fas fa-comment
-order: 5
+order: 2
 toc: true
 ---
 
