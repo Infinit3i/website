@@ -9,6 +9,10 @@ toc: true
 
 ## Quotes
 
+> "Words do not mean things, actions do."
+>
+> -- Infinit3i
+
 > "Do not go gentle into that good night,
 > Old age should burn and rave at close of day;
 > Rage, rage against the dying of the light.
@@ -39,3 +43,7 @@ toc: true
 > "I know I know nothing"
 >
 > -- Socrates
+
+> "I'm going to lay this brick as perfectly as a brick can be laid."
+>
+> -- Will Smith
