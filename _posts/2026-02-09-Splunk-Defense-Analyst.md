@@ -8,9 +8,14 @@ image:
   alt: Splunk Defense Analyst certification
 ---
 
-The Splunk Defense Analyst certification was one of the most practical learning experiences I have had because it directly aligned with how SOC teams operate in real environments. The focus was not just on using Splunk, but on thinking like an analyst who needs to make fast and accurate decisions while working through alerts and investigations.
+recommended prerequisites
+- working in a soc
+- understanding of frameworks like mitre, lockeed martin, nist, cis 18
+- power user cert knowledge
+- soc analyst triage
+- splunk es 7.0+
 
-A major focus of the material was MITRE ATTACK and how it should guide detection strategy. Instead of treating alerts as isolated events, I learned how to map activity to attacker techniques and understand where an alert fits in the overall attack lifecycle. This made investigations more structured and reduced guesswork when determining intent and severity.
+The Splunk Defense Analyst certification was a great cert for a splunk soc analyst learning how to better triage their environment. The focus was using Splunk to triage, and working through alerts and investigations. A major focus of the material was MITRE ATTACK, NIST, CIs 18 and Lockeed Martin Kill Chain and how it should guide detection strategy. Instead of treating alerts as isolated events, I learned how to map activity to attacker techniques and understand where an alert fits in the overall attack lifecycle. This made investigations more structured and reduced guesswork when determining intent and severity.
 
 Alert triage was another key area. I spent a lot of time learning how to quickly evaluate alerts, determine what mattered, and decide when escalation was necessary. Understanding how to move from an alert to a meaningful investigation helped reinforce disciplined workflows and reduced wasted effort during busy shifts.
 
@@ -27,4 +32,3 @@ One of the things I enjoyed most was learning how Splunk Enterprise Security enr
 - look what detections might miss
 - prepare, execute, act and knowledge framework
 - know the idfference between a hypothesis hunt or outside baseline hunt
-
