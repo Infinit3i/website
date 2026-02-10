@@ -13,18 +13,28 @@ I have a strong interest in **malware analysis** and I am actively learning **ma
 Some of my favorite projects have been [Detection-Wizard](https://github.com/Infinit3i/Detection-Wizard), [Defensive-Rules](https://github.com/Infinit3i/Defensive-Rules), [IOC-Detections](https://github.com/Infinit3i/IOC-Detections), [Hunt-AI](https://github.com/Infinit3i/hunt-ai).
 
 ## Future in 2026
-- Splunk Defense Analyst
 - Finish all MalDev
-- Splunk ES
-- Splunk ITSI
 - Splunk Defense Engineer
 - ejPT
 - AWS CLP
 - Finish all Bof Development
 - Splunk Architect
-- Splunk SOAR
 - Finish all Sektor 7 Intermediate course
 - Splunk Consultant
 - Weekly RE on YouTube
 - CISSP
 - CPTS
+
+## Great People to follow
+- [Deej](https://github.com/deej1721)
+- [0xtriboulet](https://github.com/0xTriboulet)
+- [Drone-spec](https://github.com/Drone-spec)
+- gooseduckduck
+- [Cyber Yeti](https://www.thecyberyeti.com/)
+  - [Cyber Yeti - Github](https://github.com/jstrosch)
+- [Lame Creations](https://lamecreations.com/)
+- [drngd0tter](https://github.com/Deranged0tter)
+- [KooshBox](https://github.com/JuanParks)
+- [NickBolles](https://github.com/NickBolles)
+- [Net-Doge](https://github.com/Net-Doge)
+- [0xSteevo](https://github.com/Steveo21)
