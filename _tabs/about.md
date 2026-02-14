@@ -11,13 +11,32 @@ I enjoy detection engineering and finding out how things tick. I enjoy solving c
 ```c
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
-bool caffeinated(void) {
-    return true;
+bool caffeinated(int cups) {
+    return cups >= 2;
 }
 
 int main(void) {
-    bool user = caffeinated();
+    char buffer[100];
+    long cups;
+    char *endptr;
+
+    printf("How many cups of coffee did you drink? ");
+
+    if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
+        printf("Input error.\n");
+        return 400;
+    }
+
+    cups = strtol(buffer, &endptr, 10);
+
+    if (endptr == buffer || *endptr != '\n') {
+        printf("Invalid input. Enter a number.\n");
+        return 422;
+    }
+
+    bool user = caffeinated((int)cups);
     bool logs = true;
 
     if (user && logs) {
@@ -26,7 +45,7 @@ int main(void) {
     }
 
     printf("No detections generated.\n");
-    return 1;
+    return 404;
 }
 ```
 
