@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
+mermaid: true
 ---
 
 I am a Security Engineer.
@@ -71,13 +72,14 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 ## Future in 2026
 
 - Finish all MalDev
+- Cribl User
 - Splunk Defense Engineer
-- ejPT
 - AWS CLP
 - Finish all Bof Development
 - Weekly RE on YouTube
-- Splunk Architect
 - Finish all Sektor 7 Intermediate course
+- ejPT
+- Splunk Architect
 - Splunk Consultant
 - CISSP
 - CPTS
