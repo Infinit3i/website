@@ -69,18 +69,27 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 - [0xSteevo](https://github.com/Steveo21)
 - [MTU](https://blog.sectorr.dev/)
 
-## Future in 2026
+```mermaid
+gantt
 
-- Finish all MalDev
-- Cribl User
-- Splunk Defense Engineer
-- AWS CLP
-- Finish all Bof Development
-- Weekly RE on YouTube
-- Finish all Sektor 7 Intermediate course
-- ejPT
-- Splunk Architect
-- Splunk Consultant
-- CISSP
-- CPTS
-- CRTO
+title 2026 Execution Roadmap
+dateFormat  YYYY-MM-DD
+
+    section Malware
+    Finish MalDev           :done, maldev, 2026-02-14, 7d
+    Finish BOF Development  :bof, after maldev, 3d
+    Finish Sektor 7         :sektor, 2026-02-25, 14d
+    Weekly RE on YouTube    :RE, 2026-03-15, 9M
+
+    section Splunk
+    Cribl User              :milestone, 2026-02-24, 1d
+    Splunk Defense Engineer :milestone, 2026-03-01, 1d
+    Splunk Architect        :arch, 2026-04-01, 60d
+    Splunk Consultant       :cons, 2026-06-01, 60d
+
+    section Certifications
+    AWS CLP                 :milestone, 2026-02-19, 1d
+    ejPT                    :ejpt, 2026-08-01, 14d
+    CPTS    :cpts, 2026-08-01, 90d
+    CRTO    :crto, after cpts, 30d
+```
