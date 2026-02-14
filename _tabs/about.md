@@ -88,7 +88,6 @@ dateFormat  YYYY-MM-DD
     Splunk Consultant       :cons, 2026-06-01, 60d
 
     section Certifications
-    AWS CLP                 :milestone, 2026-02-19, 1d
     ejPT                    :ejpt, 2026-08-01, 14d
     CPTS    :cpts, 2026-08-01, 90d
     CRTO    :crto, after cpts, 30d
