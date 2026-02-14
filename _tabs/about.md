@@ -56,18 +56,18 @@ Some of my favorite projects have been [Detection-Wizard](https://github.com/Inf
 
 ## Great People to follow
 
-- [Deej](https://github.com/deej1721)
 - [0xtriboulet](https://steve-s.gitbook.io/0xtriboulet) <a href="https://github.com/0xTriboulet" target="_blank" aria-label="0xtriboulet GitHub"><i class="fab fa-github"></i></a>
 - [Drone-spec](https://blog.dronemothership.work/Wizardintro.html) <a href="https://github.com/Drone-spec" target="_blank" aria-label="Drone GitHub"><i class="fab fa-github"></i></a>
-- gooseduckduck
-- [Cyber Yeti](https://www.thecyberyeti.com/) <a href="https://github.com/jstrosch" target="_blank" aria-label="Cyber Yeti GitHub"><i class="fab fa-github"></i></a>
+- [Cyber Yeti](https://www.thecyberyeti.com/) <a href="https://www.youtube.com/@jstrosch" target="_blank" aria-label="Cyber Yeti YT"><i class="fab fa-youtube"></i></a> <a href="https://github.com/jstrosch" target="_blank" aria-label="Cyber Yeti GitHub"><i class="fab fa-github"></i></a>
 - [Lame Creations](https://lamecreations.com/) <a href="https://www.youtube.com/@lamecreations_guides" target="_blank" aria-label="Lame Creations YT"><i class="fab fa-youtube"></i></a>
+- [Net-Doge](https://github.com/Net-Doge)
+- [Deej](https://github.com/deej1721)
 - [drngd0tter](https://github.com/Deranged0tter)
 - [KooshBox](https://github.com/JuanParks)
-- [NickBolles](https://github.com/NickBolles)
-- [Net-Doge](https://github.com/Net-Doge)
+- [NickBolles](https://nickbolles.com/) <a href="https://github.com/NickBolles" target="_blank" aria-label="Cyber Yeti GitHub"><i class="fab fa-github"></i></a>
 - [0xSteevo](https://github.com/Steveo21)
 - [MTU](https://blog.sectorr.dev/)
+- gooseduckduck
 
 ```mermaid
 gantt
