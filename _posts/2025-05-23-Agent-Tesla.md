@@ -1,8 +1,11 @@
 ---
 layout: malware
 title: Agent Tesla
-nav_section: malware
-nav_order: 10
+date: 2025-05-23 10:00:00 -0500
+categories: [Malware, Trojan]
+tags: [agent-tesla, infostealer, keylogger, credential-theft, email-phishing, data-exfiltration, .net-malware, windows-malware, c2-communication, crimeware]
+image:
+  path: /assets/Images/Agent-Tesla.png
 
 executive_summary: >
   Agent Tesla is a remote access trojan (RAT) written in .NET that has been
@@ -144,3 +147,5 @@ references:
   - https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document
   - https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla
 ---
+
+Agent Tesla is a remote access trojan (RAT) written in .NET that has been actively targeting users with Microsoft Windows OS-based systems since 2014. It is a versatile malware with a wide range of capabilities, including sensitive information stealing, keylogging, and screenshot capture. Since its release, this malicious software has received regular updates. It is sold as malware-as-a-service, with several subscription options available for purchase. Campaigns involving Agent Tesla often start with phishing emails, masquerading as legitimate messages from trusted sources.
