@@ -5,9 +5,13 @@ order: 4
 mermaid: true
 ---
 
-I am a Security Engineer.
+I am a Security Researcher.
 
-I enjoy detection engineering and finding out how things tick. I enjoy solving complex problems and discovering new ways to discover evasion by attackers. I have worked a long time to sharpen my spear to enable soc analysts and threat hunters. My work translates caffeine and logs into results for my fellow analysts.
+I enjoy discovering how things work. I enjoy solving complex problems and discovering new ways attackers evade detection. I have worked a long time to sharpen my spear to enable SOC analysts and threat hunters. My work translates caffeine and logs into results for my fellow analysts.
+
+<details markdown="1">
+
+<summary>☕ Detection Logic (C)</summary>
 
 ```c
 #include <stdio.h>
@@ -49,6 +53,9 @@ int main(void) {
     return 404;
 }
 ```
+</details>
+
+<br>
 
 I have a strong interest in **malware analysis** and I am actively learning **malware development** to better understand how offsec personnel think. I am currently learning from Maldev Academy, Sektor 7 training and Bof Development course. Learning how malware is built directly improves how I detect, monitor and analyze malware.
 
