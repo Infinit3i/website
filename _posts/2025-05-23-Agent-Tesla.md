@@ -129,17 +129,17 @@ mitre:
 
 rules:
   yara:
-    view: https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.yara
-    download: ./RULES/Agent_Tesla.yara
+    view: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.yara
+    download: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.yara
 #  sigma:
 #    view: ""
 #    download: ""
   suricata:
-    view: https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.rules
-    download: ./RULES/Agent_Tesla.rules
+    view: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.rules
+    download: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.rules
   spl:
-    view: https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.spl
-    download: ./RULES/Agent_Tesla.spl
+    view: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.spl
+    download: /malware/Trojan/Agent-Tesla/RULES/Agent_Tesla.spl
 
 references:
   - https://any.run/malware-trends/agenttesla/
