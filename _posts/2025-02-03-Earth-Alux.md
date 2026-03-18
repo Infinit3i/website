@@ -17,7 +17,6 @@ mitre: https://attack.mitre.org/groups/GXXXX/
 
 tools:
   - name: Godzilla
-    link: /posts/2025-04-09-Godzilla.md
   - name: VARGEIT
   - name: COBEACON
 
