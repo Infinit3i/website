@@ -20,7 +20,7 @@ mitre: https://attack.mitre.org/groups/GXXXX/
 
 tools:
   - name: Godzilla
-    link: /malware/godzilla
+    link: /_posts/2025-04-09-Godzilla.md
   - name: VARGEIT
   - name: COBEACON
 
