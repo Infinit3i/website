@@ -59,7 +59,7 @@ int main(void) {
 
 I have a strong interest in **malware analysis** and I am actively learning **malware development** to better understand how offsec personnel think. I am currently learning from Maldev Academy, Sektor 7 training and Bof Development course. Learning how malware is built directly improves how I detect, monitor and analyze malware.
 
-Some of my favorite projects have been [Detection-Wizard](https://github.com/Infinit3i/Detection-Wizard), [Defensive-Rules](https://github.com/Infinit3i/Defensive-Rules), [IOC-Detections](https://github.com/Infinit3i/IOC-Detections), [Hunt-AI](https://github.com/Infinit3i/hunt-ai).
+Some of my favorite projects have been [Sysmon-Builder](https://github.com/Infinit3i/Sysmon-Builder), [Detection-Wizard](https://github.com/Infinit3i/Detection-Wizard), [Defensive-Rules](https://github.com/Infinit3i/Defensive-Rules), [Hunt-AI](https://github.com/Infinit3i/hunt-ai).
 
 ## Great People to follow
 
