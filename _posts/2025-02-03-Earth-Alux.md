@@ -1,7 +1,7 @@
 ---
 layout: apt
 title: Earth Alux
-categories: [APT, Earth-Alux]
+categories: [Apt, Earth-Alux]
 tags: [earth-alux, apt, china, cyber-espionage, state-sponsored, web-shells, modular-toolkit, persistence, fileless-execution, targeted-attacks]
 image:
   path: /assets/Images/Earth_Alux.png
