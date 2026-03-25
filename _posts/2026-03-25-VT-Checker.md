@@ -3,6 +3,8 @@ title: "VirusTotal Watcher"
 date: 2026-03-25 07:00:00 -0500
 categories: [Project, GitHub]
 tags: [linux, virustotal, malware, quarantine, bash, systemd, inotify, security-tools, threat-detection, file-scanning, dotfiles, arch-linux, defensive-security]
+image:
+      path: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcyberterminal.tech%2Fwp-content%2Fuploads%2F2025%2F09%2Fhow-to-use-virustotal-guide-1024x559.png&f=1&nofb=1&ipt=0cc3734c6ae8f653692e8d65e0e8f1ba2126198de18b4947ba542c52b48f2af2
 ---
 
 A lightweight, real-time download scanner that quarantines new files in `~/Downloads`, checks their SHA256 hash against VirusTotal, and only releases them once verified clean.
