@@ -11,14 +11,10 @@
             "id": "b5570926a793b0e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2026-03-24-Belkin.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-03-24-Belkin"
+              "title": "New tab"
             }
           }
         ]
@@ -185,6 +181,10 @@
   },
   "active": "b5570926a793b0e3",
   "lastOpenFiles": [
+    "_site/posts/Belkin-F6D4230-4D1/index.html",
+    "_site/posts/Belkin-F6D4230-4D1",
+    "_posts/2026-03-24-Belkin.md",
+    "_posts/2026-03-24-Belkin-F6D4230-4D1.md",
     "_site/categories/hardware/index.html",
     "_site/categories/hardware",
     "_site/tags/brute-force/index.html",
@@ -194,8 +194,6 @@
     "_site/tags/cve-2012-4366/index.html",
     "_site/tags/cve-2012-4366",
     "_site/tags/iot-security/index.html",
-    "_site/tags/iot-security",
-    "_site/tags/hardware-hacking/index.html",
     "_site/assets/Images/glitching_belkin.png",
     "_site/glitching_belkin.png",
     "_site/glitching_belking.png",
@@ -203,7 +201,6 @@
     "assets/Images/glitching_belkin.png",
     "assets/Images/belk.md",
     "_site/assets/Images/belk.md",
-    "_posts/2026-03-24-Belkin.md",
     "_site/assets/Images/belkin_f6d4230.png",
     "_site/belkin_f6d4230.png",
     "_site/Pasted image 20260324215634.png",
