@@ -2,7 +2,7 @@
 title: "How I Studied for SecurityX"
 date: 2024-02-23 10:00:00 -0500
 categories: [Certifications, CompTIA]
-tags: [securityx, comptia, certification, leadership, risk management, defensive security, CASP]
+tags: [securityx, comptia, certification, leadership, risk-management, defensive-security, CASP]
 image:
   path: https://hig.com/wp-content/uploads/2025/01/CompTIA_Logo.png
 ---

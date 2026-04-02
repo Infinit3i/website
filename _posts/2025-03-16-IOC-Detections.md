@@ -2,7 +2,7 @@
 title: "IOC-Detections — Threat Hunting & IOCs Collection"
 date: 2025-03-16 10:00:00 -0500
 categories: [Project, GitHub]
-tags: [ioc detections, threat hunting, malware, soc analysis, yara, suricata, sigma, python, indicators of compromise, defanged iocs, infosec research, malware family intel, detection engineering, blue team, threat intel, security analytics]
+tags: [ioc detections, threat-hunting, malware, soc analysis, yara, suricata, sigma, python, indicators of compromise, defanged iocs, infosec research, malware family intel, detection-engineering, blue-team, threat intel, security-analytics]
 image:
   path: https://github.com/Infinit3i/Custom-Detections/raw/579a4a5d0281b99bcd3311679cabb2aa1d109e6a/Images/f8df6cf748cc3cf7c05ab18e798b3e91.jpg
 ---

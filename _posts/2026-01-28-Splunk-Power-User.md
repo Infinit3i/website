@@ -2,7 +2,7 @@
 title: "Splunk Certified Power User"
 date: 2026-01-28 10:00:00 -0500
 categories: [Certifications, Splunk]
-tags: [splunk, power user, log analysis, search language, spl, admin path]
+tags: [splunk, power user, log-analysis, search language, spl, admin path]
 image:
   path: https://play-lh.googleusercontent.com/04k1wMqvNGY9KujbBEFD05jl2zV4ONdusyuZd8Y2mRyzdHoJgh5C8n8eoEvz9i4lgQ
 ---

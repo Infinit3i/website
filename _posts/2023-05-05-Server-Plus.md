@@ -2,7 +2,7 @@
 title: "How I Studied for Server+"
 date: 2023-05-05 10:00:00 -0500
 categories: [Certifications, CompTIA]
-tags: [server+, comptia, certification, servers, infrastructure, data center, power, hardware, exam prep]
+tags: [server+, comptia, certification, servers, infrastructure, data center, power, hardware, exam-prep]
 image:
   path: https://hig.com/wp-content/uploads/2025/01/CompTIA_Logo.png
 ---

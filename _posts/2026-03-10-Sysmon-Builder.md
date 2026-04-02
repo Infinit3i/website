@@ -2,7 +2,7 @@
 title: "Sysmon Builder"
 date: 2026-03-10 15:00:00 -0500
 categories: [Tools, Detection Engineering]
-tags: [sysmon, sysmon-builder, detection engineering, blue team, logging, windows-security, threat detection, telemetry, security monitoring, beginner-friendly]
+tags: [sysmon, sysmon-builder, detection-engineering, blue-team, logging, windows-security, threat-detection, telemetry, security-monitoring, beginner-friendly]
 image:
     path: /assets/Images/Sysmon-Builder.png
 ---

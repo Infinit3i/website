@@ -2,7 +2,7 @@
 title: "Splunk Core Certified User"
 date: 2026-01-23 10:00:00 -0500
 categories: [Certifications, Splunk]
-tags: [splunk, detection engineering, siem, blue team, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
+tags: [splunk, detection-engineering, siem, blue-team, security-monitoring, spl, log-analysis, threat-detection, soc-operations, incident-response, data-analytics, security-analytics, monitoring-workflows]
 image:
     path: https://play-lh.googleusercontent.com/04k1wMqvNGY9KujbBEFD05jl2zV4ONdusyuZd8Y2mRyzdHoJgh5C8n8eoEvz9i4lgQ
 ---

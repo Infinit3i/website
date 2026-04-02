@@ -2,7 +2,7 @@
 title: "Splunk Defense Analyst"
 date: 2026-02-09 16:00:00 -0500
 categories: [Certifications, Splunk]
-tags: [splunk, defense analyst, siem, security monitoring, spl, log analysis, threat detection, soc operations, incident response, data analytics, security analytics, monitoring workflows]
+tags: [splunk, defense-analyst, siem, security-monitoring, spl, log-analysis, threat-detection, soc-operations, incident-response, data-analytics, security-analytics, monitoring-workflows]
 image:
   path: https://play-lh.googleusercontent.com/04k1wMqvNGY9KujbBEFD05jl2zV4ONdusyuZd8Y2mRyzdHoJgh5C8n8eoEvz9i4lgQ
   alt: Splunk Defense Analyst certification

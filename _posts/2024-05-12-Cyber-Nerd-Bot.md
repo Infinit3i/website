@@ -2,7 +2,7 @@
 title: "Cyber Nerd Discord Bot"
 date: 2024-05-12 10:00:00 -0500
 categories: [Project, GitHub]
-tags: [cybersecurity, discord bot, javascript, automation, rss, threat intel, ioc, mitre attack, detection engineering, infosec]
+tags: [cybersecurity, discord bot, javascript, automation, rss, threat intel, ioc, mitre-attack, detection-engineering, infosec]
 image:
   path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjI44K0gKx2rTnCiFSaVz8xvn9r7uJYdg-w&s
 ---
