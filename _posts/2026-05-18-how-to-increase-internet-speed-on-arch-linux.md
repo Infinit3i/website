@@ -9,6 +9,8 @@ image:
 
 I noticed that fast.com reported my connection at around 620 Mbps while command line tools like `speedtest-cli` were reporting closer to 109 Mbps. That discrepancy bothered me, so I spent an evening working through the network stack on my Arch Linux machine to figure out where the bottleneck actually lived and what I could tune locally.
 
+![Arch Linux](/assets/Images/arch-linux.gif)
+
 The first lesson was that single-stream HTTP tests against a far-away server are not measuring your link. They are measuring the slowest hop in a long path, combined with the TCP window divided by the round-trip time. Tools like fast.com use roughly sixteen parallel streams against a nearby Netflix CDN edge, which is why their numbers look so different from a single-threaded Python speedtest hitting a random Ookla mirror. Before changing anything, I established a baseline using multi-stream `curl` against a known mirror so I had something honest to compare against.
 
 The biggest configuration win came from switching the TCP congestion control algorithm from the default `cubic` to BBR. BBR was developed at Google and tends to perform much better than cubic on links with any meaningful round-trip time or packet loss, because it models bandwidth and latency directly instead of reacting to drops. I paired it with the `cake` queueing discipline, which handles bufferbloat gracefully. The change was a one-time edit to `/etc/sysctl.d/99-bbr.conf` plus loading the `tcp_bbr` module at boot through `/etc/modules-load.d/bbr.conf`.

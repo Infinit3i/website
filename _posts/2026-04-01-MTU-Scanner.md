@@ -4,7 +4,7 @@ date: 2026-04-01 07:00:00 -0500
 categories: [Project, Networking]
 tags: [linux, networking, mtu, jumbo frames, bash, lan, performance, arch-linux, ping, optimization]
 image:
-  path: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLeaEmOUVEn0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=01b9f81a9d931a4044a2d4bf15979b7278bec533677f3040a5b60d4ae5c7c101
+  path: /assets/Images/mtu-scanner-title.gif
 ---
 
 A simple script to discover the maximum MTU supported by every device on your LAN — so you can confidently enable jumbo frames without breaking connectivity.
