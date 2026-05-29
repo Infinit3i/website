@@ -4,12 +4,10 @@ date: 2026-05-18 10:00:00 -0500
 categories: [Linux, Performance]
 tags: [arch-linux, networking, performance-tuning, wifi, tcp, bbr, sysctl]
 image:
-  path: https://archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png
+  path: /assets/Images/arch-linux.gif
 ---
 
 I noticed that fast.com reported my connection at around 620 Mbps while command line tools like `speedtest-cli` were reporting closer to 109 Mbps. That discrepancy bothered me, so I spent an evening working through the network stack on my Arch Linux machine to figure out where the bottleneck actually lived and what I could tune locally.
-
-![Arch Linux](/assets/Images/arch-linux.gif)
 
 The first lesson was that single-stream HTTP tests against a far-away server are not measuring your link. They are measuring the slowest hop in a long path, combined with the TCP window divided by the round-trip time. Tools like fast.com use roughly sixteen parallel streams against a nearby Netflix CDN edge, which is why their numbers look so different from a single-threaded Python speedtest hitting a random Ookla mirror. Before changing anything, I established a baseline using multi-stream `curl` against a known mirror so I had something honest to compare against.
 
