@@ -8,6 +8,12 @@ image:
   path: /assets/Images/lightsout-title.gif
 ---
 
+| | |
+|---|---|
+| **Box** | Lights Out |
+| **Difficulty** | Easy |
+| **OS** | Linux |
+
 > **Lights Out** is an easy Linux box themed around a fake server **Lights-Out / BMC (iDRAC-style) management console**. The whole gimmick is hidden in plain sight: a "Virtual Console" that is really a **VNC** session, the password leaked in the web source, and a one-line `sudo` misconfiguration for root. There is also a fully working **IPMI RAKP hash-dump (CVE-2013-4786)** path that bypasses the box's `fail2ban` entirely.
 {: .prompt-info }
 
