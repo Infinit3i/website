@@ -146,22 +146,6 @@ Capture /etc/shadow, crack the $6$ line offline (hashcat -m 1800),
 and submit the cleartext pw to the Black Hash market to claim the lab-coin bounty.
 ```
 
-So the flag = **root's cleartext password**. As root we read the hash. Trick: long hashes wrap/clip in a VNC screenshot, so write it into the Caddy web root and `curl` it back cleanly:
-
-```bash
-# (running as root via the find primitive)
-grep '^root:' /etc/shadow > /var/www/idrac/h.txt
-```
-
-```bash
-curl -s http://192.168.5.15/h.txt
-# root:$6$rounds=656000$labbmc01$TL/Kubuee0DzMwsLyaHVxifAnL5GAXasVJvVwec9ttyl8l...KZt0:20590:0:99999:7:::
-```
-
-> Side quest for the over-curious: the local Elastic Agent `.ndjson` files in `/opt/Elastic/Agent` look juicy but they're just the agent's own diary about how its day went — no endpoint process events, no password. I rabbit-holed there so you don't have to.
-
-> Honest status: the box is rooted, but the `$6$` hash uses `rounds=656000`, and at ~95 H/s rockyou's ETA is roughly *next Sunday*. The flag is currently doing hard time in hashcat jail — targeted iDRAC/box-themed candidates next.
-
 ---
 
 ## Alternate path — IPMI RAKP hash dump (CVE-2013-4786)
