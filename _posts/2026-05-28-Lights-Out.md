@@ -5,11 +5,19 @@ categories: [CTF, Lab-Doge]
 tags: [vnc, novnc, websockify, ipmi, bmc, idrac, lights-out-manager, rakp, cve-2013-4786, caddy, gtfobins, sudo, find, privilege-escalation, foothold, credential-leak, fail2ban, shadow, hashcat, john, linux, easy]
 mermaid: true
 image:
-  path: /assets/Images/ipmi-exploit.png
+  path: /assets/Images/lightsout-title.gif
 ---
 
 > **Lights Out** is an easy Linux box themed around a fake server **Lights-Out / BMC (iDRAC-style) management console**. The whole gimmick is hidden in plain sight: a "Virtual Console" that is really a **VNC** session, the password leaked in the web source, and a one-line `sudo` misconfiguration for root. There is also a fully working **IPMI RAKP hash-dump (CVE-2013-4786)** path that bypasses the box's `fail2ban` entirely.
 {: .prompt-info }
+
+> **Mitigations.**
+> - Never embed VNC/console passwords in client URLs or page source; require real authentication for the virtual console.
+> - Treat VNC as sensitive: strong unique password (remember the 8-byte truncation), TLS, and network restriction.
+> - Disable IPMI **Cipher Suite 0** and restrict `623/udp`; IPMI 2.0 RAKP hash disclosure (CVE-2013-4786) is unfixable at the protocol level — segment the management network.
+> - Scope `sudo` precisely: `NOPASSWD: /usr/bin/find` is equivalent to giving the user root (GTFOBins).
+> - Use high-`rounds` *and* a non-guessable password; KDF cost doesn't help if the password is in rockyou.
+{: .prompt-warning }
 
 ## Attack chain
 
@@ -63,6 +71,8 @@ curl -s http://192.168.5.15/console.html | grep -oE '/novnc[^"]+'
 **VNC password: `45dqdmDCaENTH6`** (note: VNC truncates passwords to 8 bytes, so the effective key is `45dqdmDC`).
 
 > They gave this password 14 characters of effort and VNC reads the first 8, then bins the rest. Six characters of purely decorative paranoia — the security equivalent of a *Beware of Dog* sign hung on a goldfish tank.
+
+![Beware of the goldfish](/assets/Images/lightsout-goldfish.gif){: w="400" }
 
 ---
 
@@ -181,13 +191,3 @@ Cracked BMC accounts:
 | `ADMIN` | `ADMIN` |
 
 These are **BMC/LOM** creds, not the OS root password (and they are **not** reused on SSH — I knocked twice with the VNC password before remembering fail2ban keeps a guest list and I'm not on it). They flavour the box and are an alternate way to reason about it, but the VNC console is the cleaner foothold.
-
----
-
-## Mitigations
-
-- Never embed VNC/console passwords in client URLs or page source; require real authentication for the virtual console.
-- Treat VNC as sensitive: strong unique password (remember the 8-byte truncation), TLS, and network restriction.
-- Disable IPMI **Cipher Suite 0** and restrict `623/udp`; IPMI 2.0 RAKP hash disclosure (CVE-2013-4786) is unfixable at the protocol level — segment the management network.
-- Scope `sudo` precisely: `NOPASSWD: /usr/bin/find` is equivalent to giving the user root (GTFOBins).
-- Use high-`rounds` *and* a non-guessable password; KDF cost doesn't help if the password is in rockyou.
