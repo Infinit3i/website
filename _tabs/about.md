@@ -78,7 +78,7 @@ Some of my favorite projects have been [Sysmon-Builder](https://github.com/Infin
 
 <br>
 
-[![HackTheBox Profile](https://www.hackthebox.com/badge/image/95473)](https://app.hackthebox.com/users/95473)
+[![HackTheBox Profile](https://www.hackthebox.com/badge/image/95473)](https://app.hackthebox.com/public/users/95473)
 
 <br>
 
