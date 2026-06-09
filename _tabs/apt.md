@@ -2,7 +2,10 @@
 layout: page
 title: APT
 icon: fas fa-user-secret
-order: 2
+order: 3
+group: threats
+group_label: "Threats"
+group_icon: "fas fa-biohazard"
 permalink: /apt/
 ---
 

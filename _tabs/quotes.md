@@ -3,7 +3,10 @@ layout: page
 title: Quotes
 permalink: /quotes/
 icon: fas fa-comment
-order: 7
+order: 9
+group: info
+group_label: "Info"
+group_icon: "fas fa-circle-info"
 toc: true
 ---
 

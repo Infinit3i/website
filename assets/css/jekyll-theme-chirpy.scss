@@ -1,0 +1,167 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Sidebar collapsible groups */
+.nav-group {
+  width: 100%;
+
+  > details { width: 100%; }
+
+  > details > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: var(--sidebar-muted-color) !important;
+
+    &::-webkit-details-marker { display: none; }
+
+    &:hover {
+      background-color: var(--sidebar-hover-bg);
+      color: var(--sidebar-active-color) !important;
+    }
+
+    i {
+      font-size: 95%;
+      opacity: 0.8;
+      margin-right: 1.5rem;
+    }
+
+    span {
+      font-size: 90%;
+      letter-spacing: 0.2px;
+    }
+
+    &::after {
+      content: '▶';
+      margin-left: auto;
+      font-size: 1em;
+      display: inline-block;
+      transition: transform 0.15s ease;
+    }
+  }
+
+  > details[open] > summary::after {
+    transform: rotate(90deg);
+  }
+}
+
+.nav-sub {
+  flex-direction: column;
+  padding-left: 0.5rem !important;
+  margin: 0 !important;
+
+  .nav-item { width: 100%; }
+
+  .nav-link {
+    font-size: 0.9em;
+    padding-left: 1.25rem;
+  }
+}
+
+/* HTB sidebar icon */
+.sidebar-tab-img {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+  vertical-align: -0.125em;
+  display: inline-block;
+}
+
+/* HTB difficulty collapsible sections */
+details.htb-difficulty {
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+details.htb-difficulty summary {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+}
+
+details.htb-difficulty summary::-webkit-details-marker { display: none; }
+
+details.htb-difficulty summary::before {
+  content: '▶';
+  font-size: 0.65em;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+details.htb-difficulty[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details.htb-difficulty ul {
+  margin: 0;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  list-style: none;
+}
+
+details.htb-difficulty ul li {
+  padding: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+details.htb-difficulty ul li .post-date {
+  opacity: 0.55;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+}
+
+details.htb-easy summary   { background: rgba(159, 239, 0, 0.12); color: #9FEF00; }
+details.htb-medium summary { background: rgba(255, 160, 50, 0.12); color: #FFA032; }
+details.htb-hard summary   { background: rgba(255, 60, 60, 0.12);  color: #FF3C3C; }
+details.htb-insane summary { background: rgba(176, 79, 255, 0.12); color: #B04FFF; }
+
+.htb-page-header {
+  margin-bottom: 1.75rem;
+}
+
+.htb-logo {
+  width: 180px;
+  height: auto;
+}
+
+.htb-post-item {
+  display: flex !important;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.htb-post-item a {
+  font-weight: 700;
+}
+
+.htb-post-thumb {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.htb-post-thumb-placeholder {
+  background: rgba(128,128,128,0.15);
+  display: inline-block;
+}
