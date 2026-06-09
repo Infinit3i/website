@@ -5,7 +5,7 @@ categories: [PortSwigger, SQL-injection]
 tags: [portswigger, cwe-89, sql-injection, union, data-types]
 description: "A PortSwigger Web Security Academy lab on the second step of a UNION-based SQL injection — finding a column whose data type can hold the text you want to exfiltrate."
 image:
-    path: /assets/Images/SQLi-UNION-Finding-Text-Column-avatar.png
+    path: /assets/Images/PortSwigger-avatar.png
     alt: SQLi UNION Finding Text Column
 ---
 

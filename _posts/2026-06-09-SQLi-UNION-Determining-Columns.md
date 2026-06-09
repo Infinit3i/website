@@ -5,7 +5,7 @@ categories: [PortSwigger, SQL-injection]
 tags: [portswigger, cwe-89, sql-injection, union, order-by]
 description: "A PortSwigger Web Security Academy lab on the first step of every UNION-based SQL injection — learning how many columns the original query returns, using ORDER BY and UNION SELECT NULL."
 image:
-    path: /assets/Images/SQLi-UNION-Determining-Columns-avatar.png
+    path: /assets/Images/PortSwigger-avatar.png
     alt: SQLi UNION Determining Columns
 ---
 
