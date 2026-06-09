@@ -4,6 +4,9 @@ date: 2026-06-13 09:00:00 -0500
 categories: [PortSwigger, SQL Injection]
 tags: [portswigger, cwe-89, sql-injection, union-attack, credential-dump]
 description: "A product category filter concatenates user input directly into SQL. A UNION SELECT against the users table dumps plaintext credentials, and logging in as administrator solves the lab."
+image:
+    path: /assets/Images/SQLi-UNION-Retrieving-Data-avatar.png
+    alt: SQLi UNION Retrieving Data
 ---
 
 ## Overview

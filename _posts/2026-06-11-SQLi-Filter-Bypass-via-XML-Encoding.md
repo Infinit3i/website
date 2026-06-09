@@ -4,6 +4,9 @@ date: 2026-06-11 09:00:00 -0500
 categories: [PortSwigger, SQL-injection]
 tags: [portswigger, cwe-89, sql-injection, union, waf-bypass, xml]
 description: "A PortSwigger Web Security Academy lab where a WAF blocks the obvious UNION attack — until you hide the payload from it by encoding the whole injection as XML character entities."
+image:
+    path: /assets/Images/SQLi-XML-Filter-Bypass-avatar.png
+    alt: SQLi XML Filter Bypass
 ---
 
 ## Overview
