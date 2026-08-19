@@ -3,9 +3,6 @@ title: "Flustered"
 date: 2026-08-21 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, medium, glusterfs, squid, ssti, jinja2, mariadb, pivoting]
-image:
-    path: /assets/Images/flustered-001_foothold_user-flag.png
-    alt: Flustered
 description: "Flustered is a medium Linux box centered on storage solutions. An unauthenticated GlusterFS server leaks a volume of MariaDB files containing Squid proxy credentials; the proxy reaches an internal Flask app vulnerable to Server-Side Template Injection, then world-readable GlusterFS certificates allow mounting a second volume (a user's home) to plant an SSH key. This post covers recon through user.txt."
 ---
 
@@ -68,7 +65,6 @@ cat ~/.ssh/id_ed25519.pub >> /mnt/jennifer/.ssh/authorized_keys
 ssh -i jen_key jennifer@10.129.8.77
 ```
 
-![Flustered user flag](/assets/Images/flustered-001_foothold_user-flag.png)
 
 ## User flag
 

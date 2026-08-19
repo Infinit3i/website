@@ -4,8 +4,6 @@ date: 2027-01-22 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, insane, docker-registry, tomcat, path-traversal, jdbc, deserialization, ysoserial, java-rmi, credential-reuse]
 description: "RegistryTwo is an Insane Linux box that starts with a publicly exposed Docker registry allowing anonymous (token) authentication. Pulling the image hands you the web app's full source, which reveals a chain: a Tomcat ..;/ reverse-proxy bypass to flip a hidden manager flag, then a settable JDBC host that turns the app's own MySQL driver into a deserialization RCE. From the container, an internal Java RMI file-read service leaks a developer credential reused for SSH. This post covers recon through the user flag."
-image:
-    path: /assets/Images/registrytwo-001_foothold_user-flag.png
 ---
 
 ## Overview
@@ -89,7 +87,6 @@ java -jar Exploit.jar   # pseudo-shell: cat /home/developer/.git-credentials
 ssh developer@10.129.229.28   # password reused from .git-credentials
 ```
 
-![user shell as developer](/assets/Images/registrytwo-001_foothold_user-flag.png)
 
 ## User flag
 

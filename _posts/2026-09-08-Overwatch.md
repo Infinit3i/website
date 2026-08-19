@@ -4,8 +4,6 @@ date: 2026-09-08 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, medium, windows, smb, mssql, linked-server, adidns, dns-injection, responder, cleartext-creds, winrm]
 description: "An anonymous SMB share leaks a custom .NET monitoring app whose Web.config hardcodes the sqlsvc MSSQL password. MSSQL on port 6520 exposes a linked server pointing at an unresolvable host; abusing default AD DNS write rights to inject an A record + a use_link trigger coerces the SQL service to authenticate to the attacker, where Responder captures a second account's password in cleartext — logging straight into WinRM for the user flag."
-image:
-    path: /assets/Images/overwatch-001_foothold_user-flag.png
 ---
 ## Overview
 
@@ -97,7 +95,6 @@ evil-winrm -u sqlmgmt -i 10.129.10.73 -p '<redacted>'
 overwatch\sqlmgmt
 ```
 
-![user flag captured](/assets/Images/overwatch-001_foothold_user-flag.png)
 
 ## User flag
 

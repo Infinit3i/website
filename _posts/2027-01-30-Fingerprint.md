@@ -3,9 +3,6 @@ title: "Fingerprint"
 date: 2027-01-30 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, insane, path-traversal, hql-injection, xss, jwt, java-deserialization, setuid]
-image:
-    path: /assets/Images/fingerprint-001_foothold_user-flag.png
-    alt: Fingerprint
 description: "Fingerprint is an insane Linux box that chains two web apps: a Flask log viewer leaks its source (and JWT secret) via path traversal, while a GlassFish auth app falls to HQL injection plus a stored-XSS log-poison that steals a victim's browser fingerprint. With access, a hand-built Java deserialization gadget delivered in a forged JWT lands code execution, and a setuid regex binary is abused as an oracle to brute-force a user's SSH key. This post covers recon through the user flag."
 ---
 
@@ -80,7 +77,6 @@ ssh-keygen -p -P '<passphrase>' -N '' -f john_id_rsa
 ssh -i john_id_rsa john@10.129.8.55
 ```
 
-![Fingerprint user flag](/assets/Images/fingerprint-001_foothold_user-flag.png)
 
 ## User flag
 

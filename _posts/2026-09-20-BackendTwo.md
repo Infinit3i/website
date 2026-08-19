@@ -4,8 +4,6 @@ date: 2026-09-20 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, medium, api, fastapi, mass-assignment, idor, jwt, file-read, rce, credential-reuse]
 description: "BackendTwo is a medium-difficulty Linux box built entirely around a JSON API. Fuzzing a FastAPI service uncovers hidden signup/login routes; a mass-assignment flaw promotes a self-registered account to admin, and an admin file-read endpoint leaks the process environment — exposing the API key the app reuses as its JWT signing secret. Forging a debug token unlocks an arbitrary file-write that backdoors an endpoint for a shell. This post covers recon through the user flag."
-image:
-    path: /assets/Images/backendtwo-001_foothold_user-flag.png
 ---
 
 ## Overview
@@ -126,7 +124,6 @@ id        # uid=1000(htb)
 cat /home/htb/user.txt   # HTB{...}
 ```
 
-![user flag](/assets/Images/backendtwo-001_foothold_user-flag.png)
 
 Access as `htb` achieved.
 

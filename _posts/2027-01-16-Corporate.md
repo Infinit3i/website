@@ -4,8 +4,6 @@ date: 2027-01-16 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, insane, xss, csp-bypass, idor, openvpn, pivoting, sso, jwt, default-credentials]
 description: "Corporate is an Insane Linux box fronted by a corporate single-sign-on portal. A stored XSS in the support chat, combined with a Content-Security-Policy that never set script-src, lets us steal a staff member's signed SSO cookie. An insecure-direct-object-reference on the file-sharing page then leaks a personal OpenVPN profile, opening a route into the internal corporate network — where a guessable templated onboarding password gives SSH and the user flag. This post covers recon through the user flag."
-image:
-    path: /assets/Images/corporate-006_foothold_vpn-pivot.png
 ---
 
 ## Overview
@@ -50,7 +48,6 @@ The captured `CorporateSSO` cookie is a valid, currently-signed staff session.
 
 With the stolen staff cookie, `people.corporate.htb/sharing` lists shared files and serves them by sequential ID (`/sharing/file/<n>`) with no ownership check — a textbook IDOR. Walking the IDs turns up a personal OpenVPN profile (`nora-brekke.ovpn`).
 
-![vpn-pivot](/assets/Images/corporate-006_foothold_vpn-pivot.png)
 
 ## Foothold
 
@@ -85,7 +82,6 @@ id   # uid=5021(elwin.jones) ... groups=...503(it)
 cat /home/guests/elwin.jones/user.txt   # HTB{...}
 ```
 
-![user-flag](/assets/Images/corporate-001_foothold_user-flag.png)
 
 Shell as `elwin.jones` on the internal workstation — user flag captured.
 

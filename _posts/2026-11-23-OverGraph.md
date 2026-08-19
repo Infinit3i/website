@@ -3,9 +3,6 @@ title: "OverGraph"
 date: 2026-11-23 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, hard, vhost, nosql-injection, graphql, ssti, xss, csrf, open-redirect, ffmpeg, ssrf]
-image:
-    path: /assets/Images/overgraph-001_foothold_user-flag.png
-    alt: OverGraph
 description: "OverGraph is a hard Linux machine. Vhost enumeration reveals an internal management app and a GraphQL API. An email-OTP registration is bypassed with a NoSQL operator-object injection, then a chained SSTI/stored-XSS and an open-redirect on a sibling vhost defeat a SameSite=Strict cookie to steal an admin's token from a chat bot. That token unlocks a video upload processed by FFmpeg, whose HLS playlist handling is abused to read the user's SSH private key off disk. This post covers recon through user.txt."
 ---
 
@@ -76,7 +73,6 @@ chmod 600 id_rsa && ssh -i id_rsa user@graph.htb
 
 ## User flag
 
-![user flag](/assets/Images/overgraph-001_foothold_user-flag.png)
 
 ```bash
 cat /home/user/user.txt   # HTB{...}

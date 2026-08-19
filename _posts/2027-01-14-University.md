@@ -3,9 +3,6 @@ title: "University"
 date: 2027-01-14 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, windows, insane, active-directory, xhtml2pdf, cve-2023-33733, rce, password-reuse, winrm]
-image:
-    path: /assets/Images/university-001_foothold_creds-winrm.png
-    alt: University
 description: "University is an Insane Windows Active Directory box centred on a remote-learning portal. Exporting a profile to PDF runs the user-controlled Bio field through xhtml2pdf, which is vulnerable to CVE-2023-33733 — a Python expression-injection RCE that lands a shell as the web user. An on-disk database-backup script then leaks a password that, combined with the account's Remote Management membership, gives a WinRM foothold. This post covers recon through the foothold."
 ---
 
@@ -69,7 +66,6 @@ python3 -m http.server 80
 
 Exporting the profile triggers the payload and returns a shell as `university\wao`.
 
-![wao shell](/assets/Images/university-001_foothold_creds-winrm.png)
 
 ### Password reuse → WinRM
 
@@ -87,11 +83,9 @@ nxc winrm 10.129.231.193 -u WAO -p '<redacted>'      # (Pwn3d!)
 evil-winrm -i university.htb -u wao -p '<redacted>'
 ```
 
-![wao WinRM on DC](/assets/Images/university-003_foothold_dc-winrm-wao.png)
 
 From this shell the DC turns out to be **dual-homed** into an internal `192.168.99.0/24` lab segment — the launchpad for the rest of the chain.
 
-![DC dual-homed](/assets/Images/university-005_foothold_dc-interfaces.png)
 
 ## User flag
 

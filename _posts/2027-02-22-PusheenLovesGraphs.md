@@ -4,8 +4,6 @@ date: 2027-02-22 09:00:00 -0500
 categories: [HackTheBox, Challenges, Misc]
 tags: [hackthebox, challenge, misc, stego, reversing, elf, ida, control-flow-graph]
 description: "An Easy Misc/stego challenge: a 32-bit ELF hides its flag as the picture IDA's control-flow-graph layout draws. Thousands of trivial basic blocks form a grid, and the hidden bitmap is encoded in each block's SIZE — read it straight from the symbol table, no IDA required."
-image:
-    path: /assets/Images/pusheen-loves-graphs-bitmap.png
 ---
 
 ## Overview
@@ -78,7 +76,6 @@ python3 solve.py
 Piped through a small PIL renderer (scale ~10×, try both orientations and 90°
 rotations) the grid resolves to three lines of pixel-font text:
 
-![Rendered block-size bitmap](/assets/Images/pusheen-loves-graphs-bitmap.png)
 
 Reading it: `fUn_` `w17h_` `CFGz` — "fun with CFGz" (CFG = Control Flow Graphs).
 Wrapped in the flag format:

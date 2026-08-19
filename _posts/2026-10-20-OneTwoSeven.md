@@ -3,9 +3,6 @@ title: "OneTwoSeven"
 date: 2026-10-20 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, linux, hard, sftp, symlink, source-disclosure, ssh-tunnel, apache-rewrite, file-upload, webshell]
-image:
-    path: /assets/Images/onetwoseven-001_foothold_rce-www.png
-    alt: OneTwoSeven
 description: "OneTwoSeven is a hard Linux box whose self-service SFTP accounts allow creating symlinks — link the filesystem root into your web folder and the whole disk becomes readable, leaking the admin source and password. The localhost-only admin panel, reached over an SSH tunnel, blocks uploads with an Apache rewrite rule that is trivially bypassed by gluing the blocked path onto an allowed one, dropping a PHP webshell. This post covers recon through the initial shell."
 ---
 
@@ -79,7 +76,6 @@ The webshell lands in the served `addons/` directory — command execution as `w
 curl -s -b admin.cookie -G "http://127.0.0.1:60080/addons/shell.php" --data-urlencode "pwn=id"
 ```
 
-![www-admin-data RCE](/assets/Images/onetwoseven-001_foothold_rce-www.png)
 
 ## User flag
 

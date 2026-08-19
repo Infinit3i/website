@@ -4,8 +4,6 @@ date: 2027-01-06 07:00:00 -0500
 categories: [HackTheBox, Linux]
 tags: [hackthebox, hard, sql-injection, vhost, file-upload, lfi, roundcube, cve-2020-12640, credential-reuse]
 description: "Seventeen chains three web vhosts: an unauthenticated SQL injection in an exam management system leaks login credentials and points at a hidden file-management vhost, where an upload feature combines with a path-traversal flaw in an outdated Roundcube webmail (CVE-2020-12640) to include a PHP webshell. From the resulting www-data shell inside a Docker container, a hardcoded database password is reused over SSH to land the user flag."
-image:
-    path: /assets/Images/seventeen-001_foothold_user-flag.png
 ---
 
 ## Overview
@@ -107,7 +105,6 @@ sshpass -p '<redacted>' ssh mark@10.129.227.143
 cat /home/mark/user.txt   # HTB{...}
 ```
 
-![user flag](/assets/Images/seventeen-001_foothold_user-flag.png)
 
 Access as `mark` achieved and the user flag captured.
 

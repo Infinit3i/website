@@ -3,9 +3,6 @@ title: "RainbowTwo"
 date: 2026-09-11 07:00:00 -0500
 categories: [HackTheBox, Windows]
 tags: [hackthebox, windows, hard, binary-exploitation, buffer-overflow, rop, format-string, aslr-bypass, dep-bypass, process-injection, sedebugprivilege, lsass-dump, pypykatz, msfvenom, filesrv, anonymous-ftp]
-image:
-    path: /assets/Images/rainbowtwo-001_foothold_user-flag.png
-    alt: RainbowTwo
 description: "A bespoke file-transfer daemon on port 2121 leaks stack addresses through unfiltered format specifiers and overflows a stack buffer via the TEST command; a ROP chain into VirtualAlloc defeats DEP and lands a shell as rainbow2\\dev, and SeDebugPrivilege process injection into winlogon.exe elevates to SYSTEM."
 ---
 
