@@ -1,7 +1,7 @@
 ---
 title: "SQL injection UNION attack, retrieving multiple values in a single column"
 date: 2026-06-29 09:00:00 -0500
-categories: [PortSwigger, SQL Injection]
+categories: [PortSwigger, SQL-injection]
 tags: [portswigger, cwe-89, sql-injection, union-attack, credential-dump]
 description: "A product category filter is injectable, but the UNION query has only one string-typed column. Concatenating username and password into that single column dumps every credential and solves the lab."
 image:

@@ -1,7 +1,7 @@
 ---
 title: "SQL injection UNION attack, retrieving data from other tables"
 date: 2026-06-13 09:00:00 -0500
-categories: [PortSwigger, SQL Injection]
+categories: [PortSwigger, SQL-injection]
 tags: [portswigger, cwe-89, sql-injection, union-attack, credential-dump]
 description: "A product category filter concatenates user input directly into SQL. A UNION SELECT against the users table dumps plaintext credentials, and logging in as administrator solves the lab."
 image:
