@@ -3,7 +3,7 @@ title: "DOM XSS in document.write sink using source location.search"
 date: 2026-08-24 09:00:00 -0500
 categories: [PortSwigger, Cross-site-scripting]
 tags: [portswigger, cwe-79, xss, dom-based, document-write, location-search]
-description: "Client-side XSS that never touches the server response: a script reads the URL query string and writes it straight into the page with document.write. Break out of the img src attribute with \"><svg onload=alert(1)> and the alert fires from a plain link."
+description: "Client-side XSS that never touches the server response: a script reads the URL query string and writes it straight into the page with document.write. Break out of the img src attribute with \"&gt;&lt;svg onload=alert(1)&gt; and the alert fires from a plain link."
 image:
     path: /assets/Images/PortSwigger-avatar.png
     alt: DOM XSS in document.write sink using source location.search

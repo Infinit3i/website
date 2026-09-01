@@ -3,7 +3,7 @@ title: "EasterBunny"
 date: 2027-04-29 09:00:00 -0500
 categories: [HackTheBox, Challenges, Web]
 tags: [hackthebox, challenge, web, web-cache-poisoning, caching, varnish, xss, host-header]
-description: "An Easy Web challenge where Varnish caches a page whose <base href> is built from an attacker-controlled X-Forwarded-Host. Poison the cache once, an admin bot loads your JavaScript, and the hidden flag gets looped back into the app's own message list — no outbound listener required."
+description: "An Easy Web challenge where Varnish caches a page whose &lt;base href&gt; is built from an attacker-controlled X-Forwarded-Host. Poison the cache once, an admin bot loads your JavaScript, and the hidden flag gets looped back into the app's own message list — no outbound listener required."
 ---
 
 ## Overview

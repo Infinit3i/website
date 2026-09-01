@@ -3,7 +3,7 @@ title: "AbuseHumanDB"
 date: 2027-05-20 09:00:00 -0500
 categories: [HackTheBox, Challenges, Web]
 tags: [hackthebox, challenge, web, xs-search, xs-leak, status-oracle, admin-bot, broken-access-control]
-description: "An Easy Web challenge: the flag is a database row visible only to localhost, and a 'visit my URL' admin bot is the bridge. A search endpoint's 200-vs-404 status becomes a cross-origin boolean oracle via <script> onload/onerror, brute-forcing the flag char-by-char."
+description: "An Easy Web challenge: the flag is a database row visible only to localhost, and a 'visit my URL' admin bot is the bridge. A search endpoint's 200-vs-404 status becomes a cross-origin boolean oracle via &lt;script&gt; onload/onerror, brute-forcing the flag char-by-char."
 ---
 
 ## Overview

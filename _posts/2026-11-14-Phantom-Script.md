@@ -3,7 +3,7 @@ title: "Phantom Script"
 date: 2026-11-14 09:00:00 -0500
 categories: [HackTheBox, Challenges, Web]
 tags: [hackthebox, challenge, web, xss, dom-xss, socket-io, engine-io, headless-bot, cwe-79]
-description: "A Very Easy Web challenge: a search box drops your text straight into innerHTML, a headless puppeteer bot opens your link, and when your payload pops an alert the server broadcasts the flag over Socket.IO. innerHTML won't run <script>, so an <img onerror> does the work — and a hand-rolled Engine.IO v4 poller catches the flag with nothing but requests."
+description: "A Very Easy Web challenge: a search box drops your text straight into innerHTML, a headless puppeteer bot opens your link, and when your payload pops an alert the server broadcasts the flag over Socket.IO. innerHTML won't run &lt;script&gt;, so an &lt;img onerror&gt; does the work — and a hand-rolled Engine.IO v4 poller catches the flag with nothing but requests."
 ---
 
 ## Overview

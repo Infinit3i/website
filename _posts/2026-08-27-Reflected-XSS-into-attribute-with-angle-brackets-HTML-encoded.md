@@ -3,7 +3,7 @@ title: "Reflected XSS into attribute with angle brackets HTML-encoded"
 date: 2026-08-27 09:00:00 -0500
 categories: [PortSwigger, Cross-site-scripting]
 tags: [portswigger, cwe-79, xss, reflected, attribute-context, event-handler, javascript]
-description: "Angle brackets are HTML-encoded so a <script> tag can't be injected — but the input lands inside a double-quoted attribute and the quote isn't encoded. Break out of the attribute and add your own event handler instead. One missed character is the whole bug."
+description: "Angle brackets are HTML-encoded so a &lt;script&gt; tag can't be injected — but the input lands inside a double-quoted attribute and the quote isn't encoded. Break out of the attribute and add your own event handler instead. One missed character is the whole bug."
 image:
     path: /assets/Images/PortSwigger-avatar.png
     alt: Reflected XSS into attribute with angle brackets HTML-encoded

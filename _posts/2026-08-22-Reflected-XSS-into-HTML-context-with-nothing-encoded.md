@@ -3,7 +3,7 @@ title: "Reflected XSS into HTML context with nothing encoded"
 date: 2026-08-22 09:00:00 -0500
 categories: [PortSwigger, Cross-site-scripting]
 tags: [portswigger, cwe-79, xss, reflected, html-context, javascript]
-description: "The simplest cross-site scripting case: a search box echoes your input straight back into the page with no encoding, so a bare <script> tag executes. The full triage — confirm the reflection, read the context, fire the payload — plus how to escalate from a harmless alert() to a real session theft."
+description: "The simplest cross-site scripting case: a search box echoes your input straight back into the page with no encoding, so a bare &lt;script&gt; tag executes. The full triage — confirm the reflection, read the context, fire the payload — plus how to escalate from a harmless alert() to a real session theft."
 image:
     path: /assets/Images/PortSwigger-avatar.png
     alt: Reflected XSS into HTML context with nothing encoded

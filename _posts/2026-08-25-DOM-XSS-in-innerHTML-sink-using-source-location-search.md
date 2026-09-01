@@ -3,7 +3,7 @@ title: "DOM XSS in innerHTML sink using source location.search"
 date: 2026-08-25 09:00:00 -0500
 categories: [PortSwigger, Cross-site-scripting]
 tags: [portswigger, cwe-79, xss, dom-based, innerhtml, location-search]
-description: "Client-side XSS that never touches the server response: a script reads the URL query string and assigns it straight into an element with innerHTML. Because innerHTML never runs an injected script tag, fire the payload with an event handler instead — <img src=1 onerror=alert(1)>."
+description: "Client-side XSS that never touches the server response: a script reads the URL query string and assigns it straight into an element with innerHTML. Because innerHTML never runs an injected script tag, fire the payload with an event handler instead — &lt;img src=1 onerror=alert(1)&gt;."
 image:
     path: /assets/Images/PortSwigger-avatar.png
     alt: DOM XSS in innerHTML sink using source location.search

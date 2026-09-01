@@ -3,7 +3,7 @@ title: "Stored XSS into HTML context with nothing encoded"
 date: 2026-08-23 09:00:00 -0500
 categories: [PortSwigger, Cross-site-scripting]
 tags: [portswigger, cwe-79, xss, stored, persistent, html-context]
-description: "The persistent cousin of reflected XSS: a blog comment box saves your input and renders it raw into the post for every later visitor. No per-victim link needed — store the payload once and it fires for everyone. The full flow: scrape the session CSRF token, post a bare <script> comment, confirm it rendered un-encoded."
+description: "The persistent cousin of reflected XSS: a blog comment box saves your input and renders it raw into the post for every later visitor. No per-victim link needed — store the payload once and it fires for everyone. The full flow: scrape the session CSRF token, post a bare &lt;script&gt; comment, confirm it rendered un-encoded."
 image:
     path: /assets/Images/PortSwigger-avatar.png
     alt: Stored XSS into HTML context with nothing encoded

@@ -3,7 +3,7 @@ title: "You Cant C Me"
 date: 2027-04-23 09:00:00 -0500
 categories: [HackTheBox, Challenges, Reversing]
 tags: [hackthebox, challenge, reversing, security-through-obscurity, radare2, decoy-string, rodata]
-description: "An Easy Reversing challenge built on security-through-obscurity: a stripped ELF hides its password as an obfuscated .rodata blob, decrypts it at runtime with a trivially reversible byte-shift over a strings-visible decoy, then prints HTB{<your input>} on a match — so recovering the secret and feeding it back makes the binary print its own flag."
+description: "An Easy Reversing challenge built on security-through-obscurity: a stripped ELF hides its password as an obfuscated .rodata blob, decrypts it at runtime with a trivially reversible byte-shift over a strings-visible decoy, then prints HTB{&lt;your input&gt;} on a match — so recovering the secret and feeding it back makes the binary print its own flag."
 ---
 
 ## Overview
