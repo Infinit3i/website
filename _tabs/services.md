@@ -40,4 +40,4 @@ scopes of work. Invoices are issued on completion or at agreed milestones.
 
 ## Contact
 
-Email: <matthewiver@protonmail.com>
+See the [Contact](/contact/) page to start a conversation about an engagement.
