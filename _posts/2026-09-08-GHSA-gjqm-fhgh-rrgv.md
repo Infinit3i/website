@@ -4,7 +4,7 @@ date: 2026-09-08 11:00:00 -0500
 categories: [CVE, '2026']
 tags: [ghsa, ghsa-gjqm-fhgh-rrgv, jellystat, jellyfin, sql-injection, sqli, os-command-injection, rce, postgres, copy-to-program, web-security, exploit-development, red-team, offensive-security, vulnerability-research, application-security]
 image:
-  path: https://raw.githubusercontent.com/CyferShepard/Jellystat/main/frontend/public/logo.png
+  path: https://raw.githubusercontent.com/CyferShepard/Jellystat/main/public/icon-b-512.png
   alt: Jellystat SQL injection to RCE advisory
 ---
 
